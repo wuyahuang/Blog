@@ -3,6 +3,7 @@
 ### 杂谈
 
 * [区块链的基石 - ECC 椭圆曲线密码学](docs/ecc.md)
+* [为什么数组下标从 0 开始](docs/why-array-index-starts-from-zero.md)
 
 ### 数据结构
 
