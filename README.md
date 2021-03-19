@@ -1,4 +1,4 @@
-# DataStructureAndAlgorithms
+# Data structure and algorithms.
 
 ### 杂谈
 
