@@ -14,6 +14,6 @@
 
 * [单链表反转(LeetCode 206 - Reverse Linked List)](reverse-singly-linked-list.md)
 * [链表中环的检测(LeetCode 141 - Linked List Cycle)](linked-list-cycle.md)
-* [两个有序的链表合并(LeetCode 21)](reverse-singly-linked-list.md)
+* [两个有序的链表合并(LeetCode 21 - Merge Two Sorted Lists)](merge-two-sorted-lists.md)
 * [删除链表倒数第 n 个结点(LeetCode 19)](reverse-singly-linked-list.md)
 * [求链表的中间结点(LeetCode 876)](reverse-singly-linked-list.md)
