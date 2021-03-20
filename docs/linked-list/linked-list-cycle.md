@@ -1,6 +1,6 @@
 ## 环形链表(LeetCode 141 - Linked List Cycle)
 
-### 
+### 问题描述
 ```
 输入：head = [3,2,0,-4], pos = 1
 输出：true
@@ -68,4 +68,4 @@ var hasCycle = function(head) {
 
 fast 指针每次移动两格，slow指针每次移动一格，如果存在环路，则fast最终一定会和slow相遇。
 
-<img src="../../assets/linked-list/linked-list-6.png" alt="avatar" width="50%" height="50%">
+<img src="../../assets/linked-list/linked-list-6.jpeg" alt="avatar" width="50%" height="50%">
