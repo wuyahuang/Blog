@@ -9,7 +9,8 @@
 (摘自维基百科)
 ```
 
-关于链表与数组的区别，可以参考这篇文章。[Difference between Linked List and Arrays](https://www.faceprep.in/data-structures/linked-list-vs-array/#:~:text=Arrays%20Vs%20Linked%20Lists&text=An%20array%20is%20a%20collection,randomly%20using%20the%20array%20index.)
+关于链表与数组的区别，可以参考这篇文章。
+[Difference between Linked List and Arrays](https://www.faceprep.in/data-structures/linked-list-vs-array/#:~:text=Arrays%20Vs%20Linked%20Lists&text=An%20array%20is%20a%20collection,randomly%20using%20the%20array%20index.)
 
 * [单链表反转(LeetCode 206)](reverse-singly-linked-list.md)
 * [链表中环的检测(LeetCode 141)](reverse-singly-linked-list.md)
