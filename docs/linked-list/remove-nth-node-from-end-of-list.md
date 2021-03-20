@@ -38,11 +38,10 @@ var removeNthFromEnd = function(head, n) {
     newLinkedList.next = head;
 
     let second = newLinkedList;
-    let first = newLinkedList;
+    // first 从 head 开始，是因为我们从第 n - 1 个节点删掉 next 节点，因此我们 second 的目标节点是 n - 1 。
+    let first = newLinkedList.next;
 
-    // i 从 1 开始，是因为传入的 head 是从 newLinkedList.next 开始的。
-    // n + 1 是因为我们从第 n - 1 个节点删掉 next 节点，因此需要往前移一个节点。
-    for(let i = 1; i <= n + 1; i++){
+    for(let i = 0; i < n; i++){
         first = first.next;
     }
 
