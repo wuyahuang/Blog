@@ -46,7 +46,7 @@ var reverseList = function(head) {
 };
 ```
 
-##### 代码运行流程(迭代)
+##### 思路分析(迭代)
 ```
 1->2->3->4->5->NULL
 NULL<-1->2->3->4->5
@@ -80,10 +80,14 @@ var reverseList = function(head) {
 };
 ```
 
-#### 代码运行流程(递归)
-![avatar](../assets/linked-list/linked-list-1.png)
-![avatar](../assets/linked-list/linked-list-2.png)
-![avatar](../assets/linked-list/linked-list-3.png)
-![avatar](../assets/linked-list/linked-list-4.png)
-![avatar](../assets/linked-list/linked-list-5.png)
+#### 思路分析(递归)
 (图片摘自[编程狂想曲](https://leetcode-cn.com/problems/reverse-linked-list/solution/yi-bu-yi-bu-jiao-ni-ru-he-yong-di-gui-si-67c3/))
+![avatar](../assets/linked-list/linked-list-1.png)
+递归解题首先要做的是明确递推公式的含义，在这里对于结点1来说，它只需要知道它之后的所有节点反转之后的结果就可以了，也就是说递推公式reverseList的含义是：把拿到的链表进行反转，然后返回新的头结点。
+![avatar](../assets/linked-list/linked-list-2.png)
+结点1之后的结点，经过递归公式reverseList处理之后的结果如下图：
+![avatar](../assets/linked-list/linked-list-3.png)
+接着要做的就是反转结点1，也就是将head指向的结点作为其下一个结点的下一个结点，即head.next.next=head。
+![avatar](../assets/linked-list/linked-list-4.png)
+最后，将head指向的结点的下一个结点置为null，就完成了整个链表的反转。
+![avatar](../assets/linked-list/linked-list-5.png)
