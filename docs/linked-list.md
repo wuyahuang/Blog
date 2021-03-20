@@ -18,7 +18,7 @@
 输出: 5->4->3->2->1->NULL
 ```
 
-#### 代码示例(迭代):
+#### 代码示例(迭代)
 ```
 /**
  * Definition for singly-linked list.
@@ -46,7 +46,7 @@ var reverseList = function(head) {
 };
 ```
 
-##### 代码运行流程:
+##### 代码运行流程(迭代)
 ```
 1->2->3->4->5->NULL
 NULL<-1->2->3->4->5
@@ -55,3 +55,35 @@ NULL<-1<-2<-3->4->5
 NULL<-1<-2<-3<-4->5
 NULL<-1<-2<-3<-4<-5
 ```
+
+#### 代码示例(递归)
+```
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var reverseList = function(head) {
+    if(head == null || head.next == null){
+        return head;
+    }
+    let prev = reverseList(head.next);
+    head.next.next = head;
+    head.next = null;
+    return prev;
+};
+```
+
+#### 代码运行流程(递归)
+![avatar](../assets/linked-list/linked-list-1.png)
+![avatar](../assets/linked-list/linked-list-2.png)
+![avatar](../assets/linked-list/linked-list-3.png)
+![avatar](../assets/linked-list/linked-list-4.png)
+![avatar](../assets/linked-list/linked-list-5.png)
+(图片摘自[编程狂想曲](https://leetcode-cn.com/problems/reverse-linked-list/solution/yi-bu-yi-bu-jiao-ni-ru-he-yong-di-gui-si-67c3/))
