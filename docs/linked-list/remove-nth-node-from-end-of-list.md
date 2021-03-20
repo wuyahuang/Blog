@@ -36,16 +36,21 @@
 var removeNthFromEnd = function(head, n) {
     let newLinkedList = new ListNode(0);
     newLinkedList.next = head;
+
     let second = newLinkedList;
     let first = newLinkedList;
-    while(n>=0){
+
+    // i 从 1 开始，是因为传入的 head 是从 newLinkedList.next 开始的。
+    // n + 1 是因为我们从第 n - 1 个节点删掉 next 节点，因此需要往前移一个节点。
+    for(let i = 1; i <= n + 1; i++){
         first = first.next;
-        n--;
     }
+
     while(first !=null ){
         first = first.next;
         second = second.next;
     }
+
     second.next = second.next.next;
     return newLinkedList.next;
 };
@@ -53,12 +58,8 @@ var removeNthFromEnd = function(head, n) {
 
 #### 思路分析
 
-```
-由于我们需要找到倒数第 n 个节点，因此我们可以使用两个指针 first 和 second 同时对链表进行遍历，并且 first 比 second 超前 n 个节点。当 first 遍历到链表的末尾时，second 就恰好处于倒数第 n 个节点。
+初始时 first 和 second 均指向头节点。我们首先使用 first 对链表进行遍历，遍历的次数为 n + 1。此时，first 和 second 之间间隔了 n 个节点，即 first 比 second 超前了 n 个节点。
 
-具体地，初始时 first 和 second 均指向头节点。我们首先使用 first 对链表进行遍历，遍历的次数为 n。此时，first 和 second 之间间隔了 n−1 个节点，即 first 比 second 超前了 n 个节点。
-
-在这之后，我们同时使用 first 和 second 对链表进行遍历。当 first 遍历到链表的末尾（即 first 为 NULL）时，second 恰好指向倒数第 n 个节点。
-```
+在这之后，我们同时使用 first 和 second 对链表进行遍历。当 first 遍历到链表的末尾（即 first 为 NULL）时，second 恰好指向倒数第 n - 1 个节点，此时将 second 的 next 节点指向 second.next.next 即完成了删除。
 
 <img src="../../assets/linked-list/linked-list-7.png" alt="avatar" width="75%" height="75%">
