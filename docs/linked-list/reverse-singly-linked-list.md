@@ -1,4 +1,4 @@
-## 单链表反转
+## 单链表反转(LeetCode 206 - Reverse Linked List)
 
 ### 
 ```
@@ -61,10 +61,10 @@ var reverseList = function(head) {
     if(head == null || head.next == null){
         return head;
     }
-    let prev = reverseList(head.next);
+    let newHead = reverseList(head.next);
     head.next.next = head;
     head.next = null;
-    return prev;
+    return newHead;
 };
 ```
 

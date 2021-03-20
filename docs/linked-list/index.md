@@ -12,8 +12,8 @@
 关于链表与数组的区别，可以参考这篇文章。
 [Difference between Linked List and Arrays](https://www.faceprep.in/data-structures/linked-list-vs-array/#:~:text=Arrays%20Vs%20Linked%20Lists&text=An%20array%20is%20a%20collection,randomly%20using%20the%20array%20index.)
 
-* [单链表反转(LeetCode 206)](reverse-singly-linked-list.md)
-* [链表中环的检测(LeetCode 141)](reverse-singly-linked-list.md)
+* [单链表反转(LeetCode 206 - Reverse Linked List)](reverse-singly-linked-list.md)
+* [链表中环的检测(LeetCode 141 - Linked List Cycle)](reverse-singly-linked-list.md)
 * [两个有序的链表合并(LeetCode 21)](reverse-singly-linked-list.md)
 * [删除链表倒数第 n 个结点(LeetCode 19)](reverse-singly-linked-list.md)
 * [求链表的中间结点(LeetCode 876)](reverse-singly-linked-list.md)
