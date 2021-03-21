@@ -16,4 +16,4 @@
 * [链表中环的检测(LeetCode 141 - Linked List Cycle)](linked-list-cycle.md)
 * [两个有序的链表合并(LeetCode 21 - Merge Two Sorted Lists)](merge-two-sorted-lists.md)
 * [删除链表倒数第 n 个结点(LeetCode 19 - Remove Nth Node From End of List)](remove-nth-node-from-end-of-list.md)
-* [求链表的中间结点(LeetCode 876)](reverse-singly-linked-list.md)
+* [求链表的中间结点(LeetCode 876 - Middle of the Linked List)](middle-of-the-linked-list.md)
