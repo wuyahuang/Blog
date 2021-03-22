@@ -29,7 +29,7 @@ if (a[j] > a[j+1]) { // 交换
 // 插入排序中数据的移动操作：
 if (a[j] > value) {
   a[j+1] = a[j]; // 数据移动
-} else { 
+} else {
   break;
 }
 ```
@@ -41,3 +41,4 @@ if (a[j] > value) {
 
 * [插入排序(Insertion Sort - 适合少量数据排序)](insertion-sort.md)
 * [快速排序(Quick Sort - 适合大量数据排序)](quick-sort.md)
+* [插入 + 快速组合排序(Insertion Sort & Quick Sort - 适合任意数据排序)](insertion-quick-sort.md)
