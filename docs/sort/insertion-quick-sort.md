@@ -25,7 +25,7 @@ function quickSort(array, left, right) {
     if (left < pivot - 1) {
       quickSort(array, left, pivot - 1);
     }
-    if (left < right) {
+    if (pivot + 1 < right) {
       quickSort(array, pivot, right);
     }
     return array;

@@ -13,7 +13,7 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 ### 示例代码：
 
 ```
-let array = [31, 27, 28, 42, 13, 8, 11, 30, 17, 41, 15, 43, 1, 36, 33, 14, 7, 3, 5, 9];
+let array = [5,3,7,6,2,9];
 
 /**
   * 交换数组内两个元素的位置
@@ -39,7 +39,7 @@ function quickSort(array, left, right) {
     if (left < pivot - 1) {
       quickSort(array, left, pivot - 1);
     }
-    if (left < right) {
+    if (pivot + 1 < right) {
       quickSort(array, pivot, right);
     }
   }

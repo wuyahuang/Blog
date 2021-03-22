@@ -16,7 +16,7 @@ Insertion sort is a simple sorting algorithm that works similar to the way you s
 ### 示例代码:
 
 ```
-let array = [18, 1, 2, 5, 7, 9, 4, 5, 3, 2, 1, 22, 21, 24, 13, 15];
+let array = [31, 27, 28, 42, 13, 8, 11, 30, 17, 41, 15, 43, 1, 36, 33, 14, 7, 3, 5, 9, 4, 6];
 
 function insertionSort(array, n) {
   let i, current, j;
