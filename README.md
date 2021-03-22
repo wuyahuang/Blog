@@ -20,7 +20,7 @@
 
 ### 算法
 
-* 递归
+* [递归](docs/recursion.md)
 * [排序](docs/sort/README.md)
 * 二分查找
 * 搜索
