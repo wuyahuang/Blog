@@ -13,7 +13,7 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 ### 示例代码：
 
 ```
-let array = [5, 19, 3, 11, 9];
+let array = [5, 1, 1, 2, 0, 0];
 
 /**
   * 交换数组内两个元素的位置
@@ -51,6 +51,10 @@ function quickSort(array, left, right) {
   * 这个函数选择最右边的元素为 pivot，将所有小于 pivot 的元素放到左边，将所有大于 pivot 的元素放到右边
 */
 function partition(array, left, right) {
+  // 随机选择一个元素作为 pivot
+  let pivot = Math.floor(Math.random() * (right - left + 1) + left);
+  swap(array, right, pivot);
+
   let pivotIndex = left;
   const pivotValue = array[right]; // 选取最右边的元素为 pivot 
 
@@ -65,7 +69,6 @@ function partition(array, left, right) {
 }
 
 console.log(quickSort(array, 0, array.length - 1));
-
 ```
 
 ### 思路分析：
