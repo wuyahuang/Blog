@@ -22,7 +22,7 @@
 
 * [递归](docs/recursion.md)
 * [排序](docs/sort/README.md)
-* 二分查找
+* [二分查找](docs/binary-search.md)
 * 搜索
 * 哈希算法
 * 贪心算法

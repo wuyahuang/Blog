@@ -18,6 +18,11 @@ Insertion sort is a simple sorting algorithm that works similar to the way you s
 ```
 let array = [31, 27, 28, 42, 13, 8, 11, 30, 17, 41, 15, 43, 1, 36, 33, 14, 7, 3, 5, 9, 4, 6];
 
+/**
+  * 插入排序
+  * @param array 需要排序的数组
+  * @param n 数组长度 
+*/
 function insertionSort(array, n) {
   let i, current, j;
   for (i = 1; i < n; i++) {
