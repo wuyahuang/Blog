@@ -73,32 +73,38 @@ console.log(quickSort(array, 0, array.length - 1));
 ```
 [5, 19, 3, 11, 9]
 
-1.
+Step 1:
 选择最右边的元素为 pivot，所以 pivot 元素为 9。
 i 和 pivotIndex 分别指向 left 的位置，此时 i = 0，pivotIndex = 0。
 开始第一次数组遍历
 
-2.
+
+Step 2:
 i = 0, pivotIndex = 0
-5 < 9, 所以 array[i] 和 array[pivotIndex] 交换位置
+5 < 9, 交换 array[i] 和 array[pivotIndex]
 [5, 19, 3, 11, 9]
 
-3.
+
+Step 3:
 i = 1, pivotIndex = 1
 19 > 9, 不交换位置
 [5, 19, 3, 11, 9]
 
-4.
+
+Step 4:
 i = 2, pivotIndex = 1
-3 < 9, 所以 array[i] 和 array[pivotIndex] 交换位置
+3 < 9, 交换 array[i] 和 array[pivotIndex]
 [5, 3, 19, 11, 9]
 
-5.
+
+Step 5:
 i = 3, pivotIndex = 2
 11 > 9, 不交换位置
 [5, 3, 19, 11, 9]
 
-6.
-遍历完成，pivotIndex 和 right 交换位置
+
+Step 6:
+i = 4, pivotIndex = 2
+遍历完成，交换 array[pivotIndex] 和 array[right]
 [5, 3, 9, 11, 19]
 ```
