@@ -1,4 +1,3 @@
-```
 let array = [31, 27, 28, 42, 13, 8, 11, 30, 17, 41, 15, 43, 1, 36, 33, 14, 7, 3, 5, 9];
 
 /**
@@ -20,18 +19,18 @@ function swap(array, first, second) {
   * @param right 最后一个元素的数组下标
 */
 function quickSort(array, left, right) {
-  if (right - left > 10) { // 只要数组长度大于10，就进入快速排序流程
+  if (left < right) { // 只要数组长度大于1，就进入快速排序流程
+
+    if (right - left <= 10) {
+      return insertionSort(array, array.length);
+    }
+
     let pivot = partition(array, left, right); // 将数组进行左右分区，返回 pivot 下标位置
-    if (left < pivot - 1) {
-      quickSort(array, left, pivot - 1);
-    }
-    if (left < right) {
-      quickSort(array, pivot, right);
-    }
-    return array;
-  } else {
-    return insertionSort(array, array.length);
+
+    quickSort(array, left, pivot - 1); // 左分区再次进行快排运算
+    quickSort(array, pivot + 1, right); // 右分区再次进行快排运算
   }
+  return array;
 }
 
 /**
@@ -39,28 +38,25 @@ function quickSort(array, left, right) {
   * @param array 需要分区的数组
   * @param left 第一个元素的数组下标
   * @param right 最后一个元素的数组下标
+  * 这个函数选择最右边的元素为 pivot，将所有小于 pivot 的元素放到左边，将所有大于 pivot 的元素放到右边
 */
 function partition(array, left, right) {
   console.log('partition.');
-  let pivot = Math.floor((left + right) / 2); // 选取中间位置元素为 pivot 
-  let pivotValue = array[pivot];
+  // 随机选择一个元素作为 pivot
+  let pivot = Math.floor(Math.random() * (right - left + 1) + left);
+  swap(array, right, pivot);
 
-  while (left <= right) { // 只要左右两个指针没有重合，就一直往下走
-    while (array[left] < pivotValue) { // 从左往右 遍历 左边分区的元素，直到该元素大于 pivot
-      left++;
-    }
+  let pivotIndex = left;
+  const pivotValue = array[right]; // 选取最右边的元素为 pivot
 
-    while (array[right] > pivotValue) { // 从右往左 遍历 右边分区的元素，直到该元素小于 pivot
-      right--;
-    }
-
-    if (left <= right) {
-      swap(array, left, right); // 左右两个指针没有重合的情况下，交换左右两个分区达标的元素。
-      left++;
-      right--;
+  for (let i = left; i < right; i++) {
+    if (array[i] < pivotValue) { // 如果当前元素小于 pivot value，则与 pivotIndex 交换位置
+      swap(array, i, pivotIndex);
+      pivotIndex++;
     }
   }
-  return left;
+  swap(array, right, pivotIndex); // 将 pivotIndex 和 pivot 交换位置
+  return pivotIndex;
 }
 
 /**
@@ -89,4 +85,3 @@ function insertionSort(array, n) {
 }
 
 console.log(quickSort(array, 0, array.length - 1));
-```
