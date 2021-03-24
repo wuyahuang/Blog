@@ -1,4 +1,4 @@
-# Javascript 深拷贝
+# Javascript 对象拷贝
 
 Javascript 常用的对象拷贝有3种，赋值、浅拷贝、深拷贝
 
