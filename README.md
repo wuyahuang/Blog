@@ -36,5 +36,7 @@
 * [How Javascript Works: engine + Event loop + memory management](docs/how-javascript-works.md)
 * [Javascript 事件循环机制](docs/event-loop.md)
 * [Javascript 对象拷贝](docs/clone.md)
-
+* [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+* [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+* [Scope](https://scotch.io/tutorials/understanding-scope-in-javascript)
 
