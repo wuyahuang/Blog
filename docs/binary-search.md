@@ -37,4 +37,4 @@ console.log(binarySearch(array, 0, array.length - 1, 23));
 
 ### 思路分析:
 
-<img src="../../assets/binary-search.png" alt="avatar" width="75%" height="75%">
+<img src="../assets/binary-search.png" alt="avatar" width="75%" height="75%">
