@@ -35,6 +35,6 @@
 
 * [How Javascript Works: engine + Event loop + memory management](docs/how-javascript-works.md)
 * [Javascript 事件循环机制](docs/event-loop.md)
-
+* [Javascript 对象拷贝](docs/clone.md)
 
 
