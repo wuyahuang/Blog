@@ -8,7 +8,7 @@
 
 双精度浮点数 double 总共包含 64 位，其中 1 位表示符号，11 位表示指数，最后 52 位表示小数；
 
-<img src="../assets/floating-point-math.png" alt="avatar" width="50%" height="50%">
+<img src="../assets/floating-point.png" alt="avatar" width="50%" height="50%">
 
 
 我们日常生活中使用的数字基本都是 10 进制的，然而计算机使用二进制的 0 和 1 表示整数和小数，所有有限的十进制整数都可以无损的转换成有限长度的二进制数字，但是要在二进制的计算机中表示十进制的小数相对就很麻烦了，我们以 0.375 为例介绍它在二进制下的表示：
