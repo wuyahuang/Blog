@@ -37,3 +37,8 @@
 ```
 0.30000000000000004
 ```
+
+
+参考资料：
+
+[为什么 0.1 + 0.2 = 0.300000004](https://draveness.me/whys-the-design-floating-point-arithmetic/)
