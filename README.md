@@ -39,4 +39,4 @@
 * [Object prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 * [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 * [Scope](https://scotch.io/tutorials/understanding-scope-in-javascript)
-
+* [为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point-math.md)
