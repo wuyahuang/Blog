@@ -64,14 +64,17 @@ newPromise.prototype.then = function (resolveFunction, rejectFunction) {
 
 const test = new newPromise((resolve, reject) => {
   setTimeout(() => {
-    // resolve('aaa');
-    reject('bbb');
+    resolve('aaa');
+    // reject('bbb');
   }, 1);
 });
 
 test.then((result) => {
   console.log(result);
+  return 'ccc';
 }, (error) => {
   console.log(error);
+}).then((result) => {
+  console.log(result);
 });
 ```
