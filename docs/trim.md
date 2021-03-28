@@ -10,20 +10,27 @@ The term "whitespace" is based on the resulting appearance on ordinary paper. Ho
 
 ```
 String.prototype.trim = function () {
-  var str = this,
-    whitespace = " \n\r\t\f\x0b\xa0\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u2028\u2029\u3000";
+  let str = this;
+  // 潜在的空格编码
+  const whitespace = " \n\r\t\f\x0b\xa0\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u2028\u2029\u3000";
+
+  // 不断循环取 string 第一个字符，直到第一个字符不是空格，则直接截取保留剩下的字符串。
   for (var i = 0, len = str.length; i < len; i++) {
     if (whitespace.indexOf(str.charAt(i)) === -1) {
       str = str.substring(i);
       break;
     }
   }
+
+  // 跟上一步类似，不断循环取 string 最后一个字符，直到最后一个字符不是空格
+  // 为什么要两个 for 循环？因为如果字符串的长度是 10,000 个字符，前后分开取，不用遍历中间非空格的字符串，可以节省大量的时间。
   for (i = str.length - 1; i >= 0; i--) {
     if (whitespace.indexOf(str.charAt(i)) === -1) {
       str = str.substring(0, i + 1);
       break;
     }
   }
+  // 判断两次循环以后的字符串，是否是空字符串。
   return whitespace.indexOf(str.charAt(0)) === -1 ? str : '';
 }
 
