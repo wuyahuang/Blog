@@ -5,7 +5,7 @@
 // Nodejs 版本最简单的 Promise
 function newPromise(executor) {
   this.resolveQueue = []; // Promise resolve 时的回调函数集
-  this.rejectQueue = [];  // Promise rejecet 时的回调函数集
+  this.rejectQueue = [];  // Promise reject 时的回调函数集
 
   // 传递给 Promise 处理函数的 resolve
   const resolve = (value) => {

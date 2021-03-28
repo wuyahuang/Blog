@@ -50,4 +50,4 @@
 
 ### LeetCode
 
-* [678.有效的括号字符串](leetcode/678.md)
+* [678.有效的括号字符串](docs/leetcode/678.md)
