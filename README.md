@@ -52,7 +52,7 @@
 * [Javascript 对象拷贝](docs/clone.md)
 * [手写最简单 Promise](docs/simple-promise.md)
 * [Javascript trim](docs/trim.md)
-* [ES6 箭头函数](docs/arrow-function.md)
+* [ES6 箭头函数二三事](docs/arrow-function.md)
 
 
 ### LeetCode
