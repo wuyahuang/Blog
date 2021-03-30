@@ -50,8 +50,9 @@
 * [为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
 * [Javascript 事件循环机制](docs/event-loop.md)
 * [Javascript 对象拷贝](docs/clone.md)
-* [手写最简单 Promise](simple-promise.md)
-* [Javascript trim](trim.md)
+* [手写最简单 Promise](docs/simple-promise.md)
+* [Javascript trim](docs/trim.md)
+* [ES6 箭头函数](docs/arrow-function.md)
 
 
 ### LeetCode
