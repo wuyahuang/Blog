@@ -4,7 +4,7 @@ ES6 箭头函数是传统函数不错的替代方案，但它并不适合所有�
 
 ### 区别 & 限制:
 
-#### 1.箭头函数没有它自己的 this 和 super，不能当成 [methods](https://developer.mozilla.org/en-US/docs/Glossary/Method) 使用
+#### 1.箭头函数没有它自己的 this 和 super
 
 ```
 'use strict';
