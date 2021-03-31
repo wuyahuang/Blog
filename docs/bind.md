@@ -42,7 +42,9 @@ var bindFoo = bar.bind2(foo);
 var obj = new bindFoo('18'); // 1
 ```
 
-当然实际上 bind 还有一个特性，就是当 bind 返回的函数作为构造函数的时候，bind 时指定的 this 值会失效，但传入的参数依然生效。所以上面的代码要再改改:
+当然实际上 bind 还有一个特性，就是当 bind 返回的函数作为构造函数的时候，bind 时指定的 this 值会失效，但传入的参数依然生效。
+
+以上面的代码为例，new bindFoo('18')时，this 不应该再指向 foo.value。所以上面的代码要再改改:
 
 ```
 if (!Function.prototype.bind2) (function () {
