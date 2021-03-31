@@ -47,31 +47,26 @@ var obj = new bindFoo('18'); // 1
 以上面的代码为例，new bindFoo('18')时，this 不应该再指向 foo。所以上面的代码要再改改:
 
 ```
-if (!Function.prototype.bind2) (function () {
-  var slice = Array.prototype.slice;
-  Function.prototype.bind2 = function (context) {
-    // 检查调用 bind2 的是不是函数
-    if (typeof this !== 'function') {
-      throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
-    }
-    var baseArgs = slice.call(arguments, 1); // 调用 bind 时传入的参数
-    var self = this;
-    var fNOP = function () { }; // 新建一个新的对象
-    var fBound = function () {
-      baseArgs.push.apply(baseArgs, arguments); // 将调用 bind 时传入的参数与实际使用时传入的参数合并在一起
-      return self.apply(
-        fNOP.prototype.isPrototypeOf(this) ? this : context, baseArgs
-      );
-    };
+Function.prototype.bind2 = function () {
+  if (typeof this != 'function') {
+    throw new error('init failed.');
+  }
 
-    if (this.prototype) {
-      // 检查调用 bind2 的函数有没有 prototype
-      fNOP.prototype = this.prototype;
-    }
-    fBound.prototype = new fNOP();
-    return fBound;
-  };
-})();
+  var self = this;
+  var context = arguments[0];
+  var args = Array.prototype.slice.call(arguments, 1);// 调用 bind 时传入的参数
+
+  var bound = function () {
+    var conbinedArgs = Array.prototype.slice.call(arguments);// 将调用 bind 时传入的参数与实际使用时传入的参数合并在一起
+    return self.apply(this instanceof fNOP ? this : context, args.concat(conbinedArgs));
+  }
+
+  // 将 bound 的 prototype 指向 this.prototype
+  var fNOP = function () { };
+  fNOP.prototype = this.prototype;
+  bound.prototype = new fNOP();
+  return bound;
+}
 
 var value = 2;
 
@@ -80,6 +75,7 @@ var foo = {
 };
 
 function bar(name, age) {
+  console.log('executed.');
   console.log(this.value);
 }
 
