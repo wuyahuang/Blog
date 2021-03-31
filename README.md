@@ -53,6 +53,7 @@
 * [手写最简单 Promise](docs/simple-promise.md)
 * [Javascript trim](docs/trim.md)
 * [ES6 箭头函数二三事](docs/arrow-function.md)
+* [Object.create VS new Object()](docs/object.md)
 
 
 ### LeetCode
