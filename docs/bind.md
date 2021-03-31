@@ -44,7 +44,7 @@ var obj = new bindFoo('18'); // 1
 
 如果要支持 new 构造函数的话，也就是说当 bind 返回的函数作为构造函数的时候，bind 时指定的 this 值需要失效，但传入的参数依然生效。
 
-以上面的代码为例，new bindFoo('18')时，this 不应该再指向 foo.value。所以上面的代码要再改改:
+以上面的代码为例，new bindFoo('18')时，this 不应该再指向 foo。所以上面的代码要再改改:
 
 ```
 if (!Function.prototype.bind2) (function () {
@@ -56,7 +56,7 @@ if (!Function.prototype.bind2) (function () {
     }
     var baseArgs = slice.call(arguments, 1); // 调用 bind 时传入的参数
     var self = this;
-    var fNOP = function () { };
+    var fNOP = function () { }; // 新建一个新的对象
     var fBound = function () {
       baseArgs.push.apply(baseArgs, arguments); // 将调用 bind 时传入的参数与实际使用时传入的参数合并在一起
       return self.apply(
