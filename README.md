@@ -41,6 +41,7 @@
 * [Javascript trim](docs/trim.md)
 * [ES6 箭头函数二三事](docs/arrow-function.md)
 * [Object.create VS new Object()](docs/object.md)
+* [手写 bind](docs/bind.md)
 
 #### 转摘
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
