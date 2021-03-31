@@ -46,32 +46,27 @@ var obj = new bindFoo('18'); // 1
 
 ```
 if (!Function.prototype.bind2) (function () {
-  var ArrayPrototypeSlice = Array.prototype.slice;
-  Function.prototype.bind2 = function (otherThis) {
+  var slice = Array.prototype.slice;
+  Function.prototype.bind2 = function (context) {
+    // 检查调用 bind2 的是不是函数
     if (typeof this !== 'function') {
-      // closest thing possible to the ECMAScript 5
-      // internal IsCallable function
       throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
     }
-
-    var baseArgs = ArrayPrototypeSlice.call(arguments, 1),
-      baseArgsLength = baseArgs.length,
-      fToBind = this,
-      fNOP = function () { },
-      fBound = function () {
-        baseArgs.length = baseArgsLength; // reset to default base arguments
-        baseArgs.push.apply(baseArgs, arguments);
-        return fToBind.apply(
-          fNOP.prototype.isPrototypeOf(this) ? this : otherThis, baseArgs
-        );
-      };
+    var baseArgs = slice.call(arguments, 1); // 调用 bind 时传入的参数
+    var self = this;
+    var fNOP = function () { };
+    var fBound = function () {
+      baseArgs.push.apply(baseArgs, arguments); // 将调用 bind 时传入的参数与实际使用时传入的参数合并在一起
+      return self.apply(
+        fNOP.prototype.isPrototypeOf(this) ? this : context, baseArgs
+      );
+    };
 
     if (this.prototype) {
-      // Function.prototype doesn't have a prototype property
+      // 检查调用 bind2 的函数有没有 prototype
       fNOP.prototype = this.prototype;
     }
     fBound.prototype = new fNOP();
-
     return fBound;
   };
 })();
