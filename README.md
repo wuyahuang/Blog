@@ -55,7 +55,7 @@
 * [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
 * [JavaScript 深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [JavaScript 深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
-* [细说 call、apply 以及 bind 的区别和用法](https://segmentfault.com/a/1190000018017796)
+* [this、apply、call、bind](https://juejin.cn/post/6844903496253177863)
 * [JavaScript 深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
 * [浅谈 instanceof 和 typeof 的实现原理](https://juejin.cn/post/6844903613584654344)
 * [JavaScript：立即执行函数表达式（IIFE）](https://segmentfault.com/a/1190000003985390)
