@@ -33,6 +33,7 @@
 
 ### Javascript
 
+#### 原创
 * [为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
 * [Javascript 事件循环机制](docs/event-loop.md)
 * [Javascript 对象拷贝](docs/clone.md)
@@ -41,6 +42,7 @@
 * [ES6 箭头函数二三事](docs/arrow-function.md)
 * [Object.create VS new Object()](docs/object.md)
 
+#### 转摘
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 * [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
 * [How JavaScript works: Event loop and the rise of Async programming](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
@@ -53,7 +55,7 @@
 * [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
 * [JavaScript 深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [JavaScript 深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
-
+* [浅谈 instanceof 和 typeof 的实现原理](https://juejin.cn/post/6844903613584654344)
 
 ### LeetCode
 
