@@ -57,6 +57,8 @@
 * [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
 * [JavaScript 深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [JavaScript 深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
+* [JavaScript 深入之浮点数精度](https://github.com/mqyqingfeng/Blog/issues/155)
+* [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
 * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
 * [一文搞懂V8引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
