@@ -59,8 +59,12 @@
 * [JavaScript 深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [JavaScript 深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
 * [JavaScript 深入之浮点数精度](https://github.com/mqyqingfeng/Blog/issues/155)
-* [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
+* [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
+
+* [详解JavaScript中的Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
+* [这一次，彻底弄懂 Promise 原理](https://juejin.cn/post/6844904063570542599)
+* [深入理解 Generators](http://www.alloyteam.com/2016/02/generators-in-depth/)
 * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
 * [一文搞懂V8引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
 * [this、apply、call、bind](https://juejin.cn/post/6844903496253177863)
