@@ -56,6 +56,9 @@
 * [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
 * [JavaScript 深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [JavaScript 深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
+* [JavaScript专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
+
+* [一文搞懂V8引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
 * [this、apply、call、bind](https://juejin.cn/post/6844903496253177863)
 * [JavaScript 深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
 * [浅谈 instanceof 和 typeof 的实现原理](https://juejin.cn/post/6844903613584654344)
