@@ -42,6 +42,7 @@
 * [ES6 箭头函数二三事](docs/arrow-function.md)
 * [Object.create VS new Object()](docs/object.md)
 * [手写 bind](docs/bind.md)
+* [手写 curry](docs/curry.md)
 
 #### 转摘
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
@@ -56,8 +57,8 @@
 * [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
 * [JavaScript 深入之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [JavaScript 深入之变量对象](https://github.com/mqyqingfeng/Blog/issues/5)
-* [JavaScript专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
 
+* [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
 * [一文搞懂V8引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
 * [this、apply、call、bind](https://juejin.cn/post/6844903496253177863)
 * [JavaScript 深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
