@@ -44,6 +44,7 @@
 * [手写 bind](docs/bind.md)
 * [手写 curry](docs/curry.md)
 * [手写 new](docs/new.md)
+* [手写 继承](docs/extend.md)
 
 #### 转摘
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
