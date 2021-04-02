@@ -22,6 +22,8 @@ function Toyota(name, serviceLife) {
 
 // 将子对象 prototype 指向父对象 Car
 // 通过 F 来中转的目的是，隔离多个子对象同时对 Car.prototype 产生影响
+// 比如我定义一个 Toyota.prototype.sayHi，这个 sayHi 方法也会出现在 Car.prototype 中
+// 也可以通过 Object.create 实现，Toyota.prototype = Object.create(Car.prototype);
 var F = function () { };
 F.prototype = Car.prototype;
 Toyota.prototype = new F();
