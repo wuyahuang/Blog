@@ -72,6 +72,7 @@
 * [JavaScript 深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
 * [浅谈 instanceof 和 typeof 的实现原理](https://juejin.cn/post/6844903613584654344)
 * [JavaScript：立即执行函数表达式（IIFE）](https://segmentfault.com/a/1190000003985390)
+* [视频: 手写PROMISE核心代码，提升JAVASCRIPT编程能力](https://www.bilibili.com/video/BV137411e7KA?p=2)
 
 
 
