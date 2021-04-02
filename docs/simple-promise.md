@@ -1,72 +1,69 @@
-# 手写最简单 Promise
+// 定义 Promise 三个状态
+const PENDING = 'pending';
+const FULFILLED = 'fulfilled';
+const REJECTED = 'rejected';
 
+function Promise2(executor) {
+  // 初始化新的 Promise
+  this.status = PENDING;
+  this.data = null;
+  this.callbacks = [];
 
-```
-// Nodejs 版本最简单的 Promise
-function newPromise(executor) {
-  this.resolveQueue = []; // Promise resolve 时的回调函数集
-  this.rejectQueue = [];  // Promise reject 时的回调函数集
-
-  // 传递给 Promise 处理函数的 resolve
   const resolve = (value) => {
     this.data = value;
-    setTimeout(() => { // 事件循环机制中，setTimeout 会进入任务队列异步执行
-      while (this.resolveQueue.length > 0) { // Promise 是否还有 then 函数
-        const callback = this.resolveQueue.shift(); // 取出第一个回调函数
-        callback(value);
+    // 异步执行 resolve
+    setTimeout(() => {
+      // 从 callbacks 取出 then 的成功回调函数
+      while (this.callbacks.length > 0) {
+        const callback = this.callbacks.shift();
+        callback.onFulfilled(value);
       }
     });
   }
-
-  // 传递给 Promise 处理函数的 reject 
 
   const reject = (value) => {
     this.data = value;
-    setTimeout(() => { // 事件循环机制中，setTimeout 会进入任务队列异步执行
-      while (this.rejectQueue.length > 0) {
-        const callback = this.rejectQueue.shift(); // 取出第一个回调函数
-        callback(value);
+    // 异步执行 reject
+    setTimeout(() => {
+      // 从 callbacks 取出 then 的失败回调函数
+      while (this.callbacks.length > 0) {
+        const callback = this.callbacks.shift();
+        callback.onRejected(value);
       }
     });
   }
-  executor(resolve, reject); // 执行 new Promise 时传入的函数
-}
-// Promise 链式调用
-newPromise.prototype.then = function (resolveFunction, rejectFunction) {
-  // 返回新的 Promise用于链式调用
-  return new Promise((resolve, reject) => {
-    const onResolved = (value) => {
-      try {
-        //执行第一个(当前的)Promise 的成功回调,并获取返回值
-        let result = resolveFunction(value);
-        // 如果返回值是 Promise，则调用下一个 then
-        // 如果返回值不是 Promise，则直接 resolve
-        result instanceof newPromise ? result.then(resolve, reject) : resolve(result);
-      } catch (error) {
-        reject(error);
-      }
-    }
-    //把后续 then 收集的依赖都 push 进当前 Promise 的成功回调队列中(resolveQueue), 这是为了保证顺序调用
-    this.resolveQueue.push(onResolved);
 
-    // reject 与 resolve 流程类似
-    const onRejected = (value) => {
-      try {
-        let result = rejectFunction(value);
-        result instanceof newPromise ? result.then(resolve, reject) : resolve(result);
-      } catch (error) {
-        reject(error);
-      }
+  executor(resolve, reject);
+}
+
+Promise2.prototype.then = function (onFulfilled, onRejected) {
+  return new Promise2((resolve, reject) => {
+    // 当 Promise 状态未更新时，将 then 回调函数全部压入 callbacks 数组中
+    if (this.status == PENDING) {
+      this.callbacks.push({
+        onFulfilled: onFulfilled,
+        onRejected: onRejected
+      });
     }
-    this.rejectQueue.push(onRejected);
-  });
+
+    // 执行 then 成功回调函数
+    if (this.status == FULFILLED) {
+      onFulfilled(this.data);
+    }
+
+    // 执行 then 失败回调函数
+    if (this.status == REJECTED) {
+      onRejected(this.data);
+    }
+  })
 };
 
-const test = new newPromise((resolve, reject) => {
+
+const test = new Promise2((resolve, reject) => {
   setTimeout(() => {
     resolve('aaa');
-    // reject('bbb');
-  }, 1);
+    reject('bbb');
+  });
 });
 
 test.then((result) => {
@@ -74,7 +71,4 @@ test.then((result) => {
   return 'ccc';
 }, (error) => {
   console.log(error);
-}).then((result) => {
-  console.log(result);
 });
-```
