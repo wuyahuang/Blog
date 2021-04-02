@@ -11,7 +11,7 @@ function objectFactory(fn) {
   var obj = new Object(); // 新建一个对象
   obj.__proto__ = fn.prototype; // 新对象的原型指向 fn
   var result = fn.apply(obj, Array.prototype.slice.call(arguments, 1)); // 将 fn 的上下文运行环境绑定至 obj
-  // 判断返回的值是不是一个对象，如果是一个对象，我们就返回这个对象，如果没有，我们该返回什么就返回什么。
+  // 判断被 new 的函数返回值是不是一个对象，如果是一个对象，我们就返回这个对象，如果没有，我们返回 obj
   return typeof result === 'object' ? result : obj;
 };
 
