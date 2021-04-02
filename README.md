@@ -64,7 +64,7 @@
 
 
 * [详解JavaScript中的Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
-* [这一次，彻底弄懂 Promise 原理](https://juejin.cn/post/6844904063570542599)
+* [30分钟，让你彻底明白Promise原理](https://mengera88.github.io/2017/05/18/Promise%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
 * [深入理解 Generators](http://www.alloyteam.com/2016/02/generators-in-depth/)
 * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
 * [一文搞懂V8引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)

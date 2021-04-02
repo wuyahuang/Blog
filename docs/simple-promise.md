@@ -10,7 +10,7 @@ function newPromise(executor) {
   // 传递给 Promise 处理函数的 resolve
   const resolve = (value) => {
     this.data = value;
-    process.nextTick(() => { // Nodejs 事件循环机制中，process.nextTick 优先于异步任务队列执行
+    setTimeout(() => { // 事件循环机制中，setTimeout 会进入任务队列异步执行
       while (this.resolveQueue.length > 0) { // Promise 是否还有 then 函数
         const callback = this.resolveQueue.shift(); // 取出第一个回调函数
         callback(value);
@@ -22,7 +22,7 @@ function newPromise(executor) {
 
   const reject = (value) => {
     this.data = value;
-    process.nextTick(() => { // Nodejs 事件循环机制中，process.nextTick 优先于异步任务队列执行
+    setTimeout(() => { // 事件循环机制中，setTimeout 会进入任务队列异步执行
       while (this.rejectQueue.length > 0) {
         const callback = this.rejectQueue.shift(); // 取出第一个回调函数
         callback(value);
@@ -49,7 +49,7 @@ newPromise.prototype.then = function (resolveFunction, rejectFunction) {
     //把后续 then 收集的依赖都 push 进当前 Promise 的成功回调队列中(resolveQueue), 这是为了保证顺序调用
     this.resolveQueue.push(onResolved);
 
-    // reject 于 resolve 流程类似
+    // reject 与 resolve 流程类似
     const onRejected = (value) => {
       try {
         let result = rejectFunction(value);
