@@ -88,7 +88,8 @@
 ### CSS
 
 #### 原创
-* [手写双飞翼](docs/css/holy-grail.html)
+* [手写圣杯布局](docs/css/holy-grail.html)
+* [手写双飞翼布局](docs/css/flying-swing.html)
 
 #### 转摘
 * [CSS 盒模型完整介绍](https://segmentfault.com/a/1190000013069516)
