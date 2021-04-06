@@ -1,0 +1,47 @@
+<html>
+<header class="header">header</header>
+<div class="container">
+    <div class="col main">
+    	<div class="main-container">main</div>
+    </div>
+    <div class="col left">left</div>
+    <div class="col right">right</div>
+</div>
+<div class="footer">footer</div>
+
+
+<style>
+	*{
+		margin:0;padding:0;text-align: center;color: white;font-size: 30px;
+	}
+
+	.header,.footer {
+		height: 50px;
+		background-color: lightblue;
+	}
+
+	.container {
+		overflow:hidden;
+	}
+
+	.col {
+		float: left;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.main-container{
+		margin:0 300px; height: 200px;background-color: gray;
+	}
+
+	.left {
+		width: 300px; height: 200px; margin-left: -100%;background-color: green;
+	}
+
+	.right {
+		width: 300px; height: 200px; margin-left: -300px;background-color: blue;
+	}
+</style>
+</html>
