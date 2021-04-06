@@ -31,6 +31,16 @@
 * 动态规划
 * 字符串匹配
 
+### LeetCode
+
+* [678.有效的括号字符串](docs/leetcode/678.md)
+* [215.数组中的第 K 大元素](docs/leetcode/215.md)
+
+### Hybrid APP
+
+* [H5 与 Native 交互之 JSBridge 技术](https://segmentfault.com/a/1190000010356403?utm_source=sf-similar-article)
+
+
 ### Javascript
 
 #### 原创
@@ -63,27 +73,16 @@
 * [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
 
-* [详解JavaScript中的Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
-* [30分钟，让你彻底明白Promise原理](https://mengera88.github.io/2017/05/18/Promise%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
+* [详解 JavaScript 中的 Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
+* [30分钟，让你彻底明白 Promise 原理](https://mengera88.github.io/2017/05/18/Promise%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
 * [深入理解 Generators](http://www.alloyteam.com/2016/02/generators-in-depth/)
 * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
-* [一文搞懂V8引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
+* [一文搞懂 V8 引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
 * [this、apply、call、bind](https://juejin.cn/post/6844903496253177863)
-* [JavaScript 深入之bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
+* [JavaScript 深入之 bind 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)
 * [浅谈 instanceof 和 typeof 的实现原理](https://juejin.cn/post/6844903613584654344)
 * [JavaScript：立即执行函数表达式（IIFE）](https://segmentfault.com/a/1190000003985390)
-* [视频: 手写PROMISE核心代码，提升JAVASCRIPT编程能力](https://www.bilibili.com/video/BV137411e7KA?p=2)
-
-
-
-### LeetCode
-
-* [678.有效的括号字符串](docs/leetcode/678.md)
-* [215.数组中的第 K 大元素](docs/leetcode/215.md)
-
-### Hybrid APP
-
-* [H5 与 Native 交互之 JSBridge 技术](https://segmentfault.com/a/1190000010356403?utm_source=sf-similar-article)
+* [视频: 手写 PROMISE 核心代码，提升 JAVASCRIPT 编程能力](https://www.bilibili.com/video/BV137411e7KA?p=2)
 
 
 ### CSS
@@ -97,10 +96,10 @@
 * [深入理解圣杯布局和双飞翼布局](https://juejin.cn/post/6844903817104850952)
 * [CSS3 新特性](https://segmentfault.com/a/1190000010780991)
 * [梳理 CSS 模块化](https://juejin.cn/post/6844904034281734151#heading-9)
-* [CSS性能优化](https://blog.csdn.net/weixin_43883485/article/details/103504171)
-* [深入理解CSS中的层叠上下文和层叠顺序](https://www.zhangxinxu.com/wordpress/2016/01/understand-css-stacking-context-order-z-index/)
-* [div居中的几种方法](https://juejin.cn/post/6844903821529841671)
-* [带你彻底了解CSS浮动](https://segmentfault.com/a/1190000012739764)
+* [CSS 性能优化](https://blog.csdn.net/weixin_43883485/article/details/103504171)
+* [深入理解 CSS 中的层叠上下文和层叠顺序](https://www.zhangxinxu.com/wordpress/2016/01/understand-css-stacking-context-order-z-index/)
+* [DIV 居中的几种方法](https://juejin.cn/post/6844903821529841671)
+* [带你彻底了解 CSS 浮动](https://segmentfault.com/a/1190000012739764)
 
 
 
