@@ -93,7 +93,7 @@
 * [Position 定位](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout/Positioning)
 * [flex 布局的基本概念](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 * [你必须懂的 CSS 样式权重和优先级](https://zhuanlan.zhihu.com/p/41604775)
-* [深入理解圣杯布局和双飞翼布局](https://juejin.cn/post/6844903817104850952)
+* [两招搞定三栏布局——圣杯布局、双飞翼布局](https://segmentfault.com/a/1190000015950592?utm_source=sf-similar-article)
 * [CSS3 新特性](https://segmentfault.com/a/1190000010780991)
 * [梳理 CSS 模块化](https://juejin.cn/post/6844904034281734151#heading-9)
 * [CSS 性能优化](https://blog.csdn.net/weixin_43883485/article/details/103504171)
