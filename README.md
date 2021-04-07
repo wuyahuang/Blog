@@ -116,3 +116,11 @@
 
 
 
+### HTML
+
+### 转摘
+* [彻底理解行内元素和块级元素，不必硬背](https://www.cnblogs.com/yc8930143/p/7237456.html)
+* [面试官：前端跨页面通信，你知道哪些方法？](https://juejin.cn/post/6844903811232825357)
+* [前端路由的两种模式：hash模式和 history模式](https://blog.csdn.net/Charissa2017/article/details/104779412)
+* [JavaScript 是如何影响 DOM 生成的](https://blog.poetries.top/browser-working-principle/guide/part5/lesson22.html#javascript-%E6%98%AF%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D-dom-%E7%94%9F%E6%88%90%E7%9A%84)
+* [事件模型](https://javascript.ruanyifeng.com/dom/event.html)
