@@ -128,3 +128,18 @@
 * [Chrome 浏览器架构](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
 * [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 * [深入了解 JavaScript 内存泄露](https://segmentfault.com/a/1190000020231307)
+
+
+### 性能优化
+
+#### 转摘
+* [前端性能优化 - 用RAIL模型分析性能](https://juejin.cn/post/6850037273312886797)
+* [🚵 前端性能优化之旅](https://alienzhou.com/projects/fe-performance-journey/#%E5%89%8D%E7%AB%AF%E9%9C%80%E8%A6%81%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%88%EF%BC%9F)
+* [重排(reflow)和重绘(repaint)](https://juejin.cn/post/6844904083212468238)
+* [前端性能优化之白屏时间](https://cloud.tencent.com/developer/article/1508941)
+* [网页图片加载优化方案](https://zhuanlan.zhihu.com/p/33370207)
+* [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
+* [前端浏览器动画性能优化](https://www.jianshu.com/p/d24a891d4de6)
+* [浏览器渲染流程&Composite（渲染层合并）简单总结](https://segmentfault.com/a/1190000014520786)
+
+
