@@ -1,9 +1,11 @@
 # Data structure and algorithms.
 
+
 ### 杂谈
 
 * [区块链的基石 - ECC 椭圆曲线密码学](docs/ecc.md)
 * [为什么很多编程语言的数组下标从 0 开始](docs/why-array-index-starts-from-zero.md)
+
 
 ### 数据结构
 
@@ -18,6 +20,7 @@
 * 图
 * Trie 树
 
+
 ### 算法
 
 * [递归](docs/recursion.md)
@@ -31,10 +34,12 @@
 * 动态规划
 * 字符串匹配
 
+
 ### LeetCode
 
 * [678.有效的括号字符串](docs/leetcode/678.md)
 * [215.数组中的第 K 大元素](docs/leetcode/215.md)
+
 
 ### Hybrid APP
 
@@ -42,6 +47,7 @@
 
 
 ### Javascript
+
 
 #### 原创
 * [为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
@@ -55,6 +61,7 @@
 * [手写 curry](docs/curry.md)
 * [手写 new](docs/new.md)
 * [手写 继承](docs/extend.md)
+
 
 #### 转摘
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
@@ -91,6 +98,7 @@
 * [手写圣杯布局](docs/css/holy-grail.html)
 * [手写双飞翼布局](docs/css/flying-swing.html)
 
+
 #### 转摘
 * [CSS 盒模型完整介绍](https://segmentfault.com/a/1190000013069516)
 * [CSS 选择器，一篇就够了](https://segmentfault.com/a/1190000013424772)
@@ -105,10 +113,6 @@
 * [深入理解 CSS 中的层叠上下文和层叠顺序](https://www.zhangxinxu.com/wordpress/2016/01/understand-css-stacking-context-order-z-index/)
 * [DIV 居中的几种方法](https://juejin.cn/post/6844903821529841671)
 * [带你彻底了解 CSS 浮动](https://segmentfault.com/a/1190000012739764)
-
-
-
-
 
 
 
