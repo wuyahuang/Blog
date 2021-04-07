@@ -124,3 +124,5 @@
 * [前端路由的两种模式：hash模式和 history模式](https://blog.csdn.net/Charissa2017/article/details/104779412)
 * [JavaScript 是如何影响 DOM 生成的](https://blog.poetries.top/browser-working-principle/guide/part5/lesson22.html#javascript-%E6%98%AF%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D-dom-%E7%94%9F%E6%88%90%E7%9A%84)
 * [事件模型](https://javascript.ruanyifeng.com/dom/event.html)
+* [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
+* [Chrome 浏览器架构](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
