@@ -150,5 +150,10 @@
 * [前端模块化详解(完整版)](https://segmentfault.com/a/1190000017466120)
 * [Tree-Shaking性能优化实践 - 原理篇](https://juejin.cn/post/6844903544756109319)
 * [从一个误写的逗号谈开去——JS代码是如何被压缩的](https://www.h5w3.com/19480.html)
+* [你不知道的 Babel（7000字，详解原理并手写插件）](https://my.oschina.net/u/4088983/blog/4545928)
+* [细说 webpack 之流程篇](https://developer.aliyun.com/article/61047)
+* [webpack-插件机制杂记](https://juejin.cn/post/6844903789804126222)
+* [webpack源码学习系列之三：loader 机制](https://github.com/youngwind/blog/issues/101)
+* [可能是你见过最完善的微前端解决方案](https://tech.antfin.com/community/articles/536)
 
 
