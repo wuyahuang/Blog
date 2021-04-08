@@ -143,3 +143,12 @@
 * [浏览器渲染流程&Composite（渲染层合并）简单总结](https://segmentfault.com/a/1190000014520786)
 
 
+### 模块化
+
+
+#### 转摘
+* [前端模块化详解(完整版)](https://segmentfault.com/a/1190000017466120)
+* [Tree-Shaking性能优化实践 - 原理篇](https://juejin.cn/post/6844903544756109319)
+* [从一个误写的逗号谈开去——JS代码是如何被压缩的](https://www.h5w3.com/19480.html)
+
+
