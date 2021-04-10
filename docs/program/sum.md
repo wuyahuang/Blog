@@ -26,7 +26,7 @@ function add(a, b) {
   let totalSum = ''; // 总的相加后的和
   for (let i = maxLength - 1; i >= 0; i--) {
     sum = parseInt(a[i]) + parseInt(b[i]) + carry; // 运算当前的和
-    carry = sum > 10 ? 1 : 0; // 相加后是否需要进位, carry 待下次运算时再计入 sum 中
+    carry = sum >= 10 ? 1 : 0; // 相加后是否需要进位, carry 待下次运算时再计入 sum 中
     totalSum = sum % 10 + totalSum; // 进位后剩下的余数加入总和中
   }
 
