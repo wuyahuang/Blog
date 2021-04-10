@@ -200,3 +200,18 @@
 * [操作系统中的进程调度策略有哪几种](https://blog.csdn.net/qq_35642036/article/details/82809812)
 * [死锁是什么？如何避免死锁？](https://www.jianshu.com/p/44125bb12ebf)
 * [📔【操作系统】I/O 多路复用，select / poll / epoll 详解](https://imageslr.github.io/2020/02/27/select-poll-epoll.html)
+
+
+### 网络
+
+
+#### 转摘
+
+* [OSI 7层模型和TCP/IP 4层模型](https://zhuanlan.zhihu.com/p/32059190)
+* [HTTP的前世今生](https://coolshell.cn/articles/19840.html)
+* [深入理解HTTPS原理、过程与实践](https://zhuanlan.zhihu.com/p/26682342)
+* [深入理解http2.0协议，看这篇就够了！](https://juejin.cn/post/6844903984524705800)
+* [HTTP3.0和QUIC协议那些事](https://blog.csdn.net/wolfGuiDao/article/details/108729560)
+* [websocket 协议详解及报文分析](https://blog.csdn.net/LL845876425/article/details/106393358)
+* [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
+* [UDP详解](https://zhuanlan.zhihu.com/p/337678680)
