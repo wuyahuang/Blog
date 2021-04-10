@@ -231,3 +231,15 @@
 * [Nodejs 编写守护进程](https://juejin.cn/post/6844903444839399438)
 * [Nodejs进程间通信](http://www.ayqy.net/blog/nodejs%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/)
 * [Node.js 捕获异常的一些探索](http://www.alloyteam.com/2013/12/node-js-series-exception-caught/)
+
+
+### 架构设计
+
+
+#### 转摘
+
+* [设计模式](https://refactoringguru.cn/design-patterns)
+* []()
+* []()
+* []()
+* []()
