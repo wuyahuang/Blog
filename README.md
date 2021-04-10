@@ -188,4 +188,15 @@
 * [JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
 * [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
 * [判断一个数是否为质数/素数——从普通判断算法到高效判断算法思路](https://blog.csdn.net/huang_miao_xin/article/details/51331710)
-* []()
+
+
+### 操作系统
+
+
+#### 转摘
+
+* [一篇让你明白进程与线程之间的区别与联系](https://juejin.cn/post/6844903801321685000)
+* [进程间通信IPC (InterProcess Communication)](https://www.jianshu.com/p/c1015f5ffa74)
+* [操作系统中的进程调度策略有哪几种](https://blog.csdn.net/qq_35642036/article/details/82809812)
+* [死锁是什么？如何避免死锁？](https://www.jianshu.com/p/44125bb12ebf)
+* [📔【操作系统】I/O 多路复用，select / poll / epoll 详解](https://imageslr.github.io/2020/02/27/select-poll-epoll.html)
