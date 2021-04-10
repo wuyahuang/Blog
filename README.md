@@ -179,6 +179,7 @@
 * [Javascript 两个大数相加](docs/program/sum.md)
 * [JavaScript 实现千位分隔符](docs/program/commaFormat.md)
 * [Javascript 数组去重](docs/program/unique.md)
+* [Javascript 判断是否为质数](docs/program/isPrime.md)
 
 
 #### 转摘
