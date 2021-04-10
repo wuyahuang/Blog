@@ -174,6 +174,10 @@
 
 ### 编程题
 
+#### 手写
+
+* [Javascript 两个大数相加](docs/program/sum.md)
+
 
 #### 转摘
 
@@ -239,7 +243,7 @@
 #### 转摘
 
 * [设计模式](https://refactoringguru.cn/design-patterns)
-* []()
-* []()
-* []()
-* []()
+* [代码重构之道](https://www.jianshu.com/p/f667ea3e4a11)
+* [前端技术之MVVM软件架构模式](https://zhuanlan.zhihu.com/p/79899786)
+* [MVC模式详解](https://blog.csdn.net/zhangli_/article/details/50419783)
+* [MVP架构模式详解](https://www.jianshu.com/p/4b754ea48a40)
