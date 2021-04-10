@@ -4,7 +4,7 @@
 示例：19,351,235.235767
 
 ```
-Number.prototype.dotFormart = function (targetLength) {
+Number.prototype.commaFormat = function (targetLength) {
 
   targetLength = targetLength ? targetLength : 3; // 没有传参的话，默认执行千分位格式
 
@@ -38,11 +38,11 @@ let test1 = 123123456789.1234;
 let test2 = 223123456789;
 
 console.log('千分位');
-console.log(test1.dotFormart(3));
-console.log(test2.dotFormart(3));
+console.log(test1.commaFormat(3));
+console.log(test2.commaFormat(3));
 
 console.log('');
 console.log('万分位');
-console.log(test1.dotFormart(4));
-console.log(test2.dotFormart(4));
+console.log(test1.commaFormat(4));
+console.log(test2.commaFormat(4));
 ```
