@@ -215,3 +215,19 @@
 * [websocket 协议详解及报文分析](https://blog.csdn.net/LL845876425/article/details/106393358)
 * [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
 * [UDP详解](https://zhuanlan.zhihu.com/p/337678680)
+
+
+### Node
+
+
+#### 转摘
+
+* [深入了解Nodejs模块机制](https://juejin.cn/post/6844904030905303054)
+* [require() 源码解读](http://www.ruanyifeng.com/blog/2015/05/require.html)
+* [Node.js 事件循环-比官方更全面](https://learnku.com/articles/38802)
+* [【nodejs原理&源码赏析（4）】深度剖析cluster模块源码与node.js多进程（上）](https://www.cnblogs.com/dashnowords/p/10958457.html)
+* [深入理解 Node Stream 内部机制](https://www.barretlee.com/blog/2017/06/06/dive-to-nodejs-at-stream-module/)
+* [Nodejs Stream pipe 的使用与实现原理分析](https://cloud.tencent.com/developer/article/1630068)
+* [Nodejs 编写守护进程](https://juejin.cn/post/6844903444839399438)
+* [Nodejs进程间通信](http://www.ayqy.net/blog/nodejs%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/)
+* [Node.js 捕获异常的一些探索](http://www.alloyteam.com/2013/12/node-js-series-exception-caught/)
