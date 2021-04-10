@@ -184,3 +184,8 @@
 * [面试官连环追问：数组拍平（扁平化） flat 方法实现](https://segmentfault.com/a/1190000021366004)
 * [JavaScript专题之跟着underscore学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
 * [JavaScript专题之跟着 underscore 学节流](https://github.com/mqyqingfeng/Blog/issues/26)
+* [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
+* [JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
+* [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
+* [判断一个数是否为质数/素数——从普通判断算法到高效判断算法思路](https://blog.csdn.net/huang_miao_xin/article/details/51331710)
+* []()
