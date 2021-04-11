@@ -40,6 +40,7 @@
 * [24.反转链表](docs/leetcode/24.md)
 * [25.合并两个排序的链表](docs/leetcode/25.md)
 * [141.环形链表](docs/leetcode/141.md)
+* [204.计数质数](docs/leetcode/204.md)
 * [344.反转字符串](docs/leetcode/344.md)
 * [509.斐波那契数](docs/leetcode/509.md)
 * [678.有效的括号字符串](docs/leetcode/678.md)
