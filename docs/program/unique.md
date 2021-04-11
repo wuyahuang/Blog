@@ -6,7 +6,9 @@ Array.prototype.unique = function (isSorted) {
   let seen; // 最后一个见过的元素
   for (let i = 0; i < this.length; i++) {
     let item = this[i]; // 当前处理的元素
-    item = typeof item == 'string' ? item.toLowerCase() : item; // 如果当前元素是 string 类型，则将其专程小写字母
+
+    // 如果当前元素是 string 类型，则将其专程小写字母
+    item = Object.prototype.toString.call(item) == '[object String]' ? item.toLowerCase() : item;
 
     // 如果传入的数组是无序的，则通过 indexOf 判断
     // 如果传入的数组是有序的，则直接比对前后元素是否一致
