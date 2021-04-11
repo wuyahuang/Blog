@@ -185,6 +185,7 @@
 * [Javascript 判断是否为质数](docs/program/isPrime.md)
 * [Javascript 数组拍平 flat](docs/program/flat.md)
 * [Javascript 防抖](docs/program/debounce.md)
+* [Javascript 节流](docs/program/throttled.md)
 
 
 #### 转摘
