@@ -37,6 +37,7 @@
 
 ### LeetCode
 
+* [9.回文数](docs/leetcode/9.md)
 * [24.反转链表](docs/leetcode/24.md)
 * [25.合并两个排序的链表](docs/leetcode/25.md)
 * [141.环形链表](docs/leetcode/141.md)
