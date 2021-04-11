@@ -9,10 +9,12 @@ Array.prototype.fakeFlat = function (number = 1) {
 
   let retArray = this;
   while (number > 0) {
-    // 检查数组元素中是否还有数组
+    // 检查数组元素中是否还有数组元素
     if (retArray.some((item) => { return Array.isArray(item) })) {
-      retArray = [].concat(...retArray);    // 数组中还有数组元素的话并且 num > 0，继续展开一层数组 
+    	// 将数组继续展开一层
+      retArray = Array.prototype.concat(...retArray);
     } else {
+    	// 已经全部拍平了
       break;
     }
     number--;
