@@ -184,6 +184,7 @@
 * [Javascript 数组去重](docs/program/unique.md)
 * [Javascript 判断是否为质数](docs/program/isPrime.md)
 * [Javascript 数组拍平 flat](docs/program/flat.md)
+* [Javascript 防抖](docs/program/debounce.md)
 
 
 #### 转摘
