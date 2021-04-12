@@ -206,8 +206,7 @@
 ### Vue.js
 
 
-* [深入剖析Vue源码 - 响应式系统构建(上)](https://juejin.cn/post/6844903869730799629)
-* [深入剖析Vue源码 - 响应式系统构建(下)](https://juejin.cn/post/6844903887489466382)
+* [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662)
 * [vue系列---理解Vue中的computed,watch,methods的区别及源码实现(六)](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
 * [深入剖析Vue源码 - Vue插槽，你想了解的都在这里!](https://juejin.cn/post/6844903927129849864)
 * [Vue nextTick实现原理](https://www.cnblogs.com/leiting/p/13174545.html)
