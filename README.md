@@ -195,13 +195,24 @@
 * [三行代码实现 add(1)(2)(3)](https://juejin.cn/post/6844904093467541517)
 * [JS 实现两个大数相加？](https://zhuanlan.zhihu.com/p/72179476)
 * [面试官连环追问：数组拍平（扁平化） flat 方法实现](https://segmentfault.com/a/1190000021366004)
-* [JavaScript专题之跟着underscore学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
+* [JavaScript专题之跟着 underscore 学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
 * [JavaScript专题之跟着 underscore 学节流](https://github.com/mqyqingfeng/Blog/issues/26)
 * [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
 * [JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
 * [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
 * [判断一个数是否为质数/素数——从普通判断算法到高效判断算法思路](https://blog.csdn.net/huang_miao_xin/article/details/51331710)
 
+
+### Vue.js
+
+
+* [深入剖析Vue源码 - 响应式系统构建(上)](https://juejin.cn/post/6844903869730799629)
+* [深入剖析Vue源码 - 响应式系统构建(下)](https://juejin.cn/post/6844903887489466382)
+* [vue系列---理解Vue中的computed,watch,methods的区别及源码实现(六)](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
+* [深入剖析Vue源码 - Vue插槽，你想了解的都在这里!](https://juejin.cn/post/6844903927129849864)
+* [Vue nextTick实现原理](https://www.cnblogs.com/leiting/p/13174545.html)
+* [彻底搞懂Vue中keep-alive的魔法(上)](https://juejin.cn/post/6844903950886371342)
+* [彻底搞懂Vue中keep-alive的魔法(下)](https://juejin.cn/post/6844903966170431496)
 
 ### 操作系统
 
