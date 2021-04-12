@@ -113,63 +113,67 @@ Object.assign(target, source)
 4. 手写深拷贝
 
 ```
-/*
- * 深拷贝
- * @param 需要拷贝的对象
- * @return 拷贝后的对象
- */
+function clone(target, map = new WeakMap()) {
+  // 如果目标是对象
+  if (typeof target === 'object') {
+    // 传入的 target 是不是数组
+    const isArray = Array.isArray(target);
+    let cloneTarget = isArray ? [] : {};
 
-function deepClone(obj) {
-  if (obj == null) {
-    return null
-  }
-  if (obj instanceof RegExp) { //obj 类型是 RegExp，直接返回 new RegExp
-    return new RegExp(obj)
-  }
-  if (obj instanceof Date) { // obj 类型是 Date，直接返回 new Date
-    return new Date(obj)
-  }
-  var objClone = Array.isArray(obj) ? [] : {} // 判断是否是数组
-  for (let key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      if (obj[key] && typeof obj[key] === "object") { // 如果 obj 类型是对象，递归调用 deepClone
-        objClone[key] = deepClone(obj[key])
-      } else {
-        objClone[key] = obj[key]
-      }
+    // 处理循环引用问题
+    if (map.get(target)) {
+      return map.get(target);
     }
+    map.set(target, cloneTarget);
+
+    // 获取 target 的 keys，数组直接返回 [0,1,2,3,4]
+    let keys = Object.keys(target);
+    let index = 0;
+    const length = keys.length;
+    // 遍历 target 进行复制
+    while (index < length) {
+      let key = keys[index];
+      cloneTarget[key] = clone(target[key], map);
+      index++;
+    }
+
+    return cloneTarget;
+  } else {
+    // 如果目标不是对象，则直接返回
+    return target;
   }
-  return objClone
 }
 
-// 测试
-let person1 = {
-  name: "Alice",
-  age: 18,
-  birthday: new Date(),
-  preference: {
-    vechicle: "Lexus"
-  }
-}
+const target = {
+  field1: 1,
+  field2: undefined,
+  field3: {
+    child: 'child'
+  },
+  field4: [2, 4, 8],
+  f: { f: { f: { f: { f: { f: { f: { f: { f: { f: { f: { f: {} } } } } } } } } } } },
+};
 
-var person2 = deepClone(person1)
-person2.name = "Bob";
-console.log("person1: ", person1)
-console.log("person2: ", person2)
+target.target = target;
+
+console.time();
+const result = clone(target);
+console.timeEnd();
+console.log(result);
 ```
 
 输出:
 
 ```
-person1:  { name: 'Alice',
-  age: 18,
-  birthday: 2021-03-24T09:36:08.243Z,
-  preference: { vechicle: 'Lexus' } }
-person2:  { name: 'Bob',
-  age: 18,
-  birthday: 2021-03-24T09:36:08.243Z,
-  preference: { vechicle: 'Lexus' } }
+{ field1: 1,
+  field2: undefined,
+  field3: { child: 'child' },
+  field4: [ 2, 4, 8 ],
+  f: { f: { f: [Object] } },
+  target: [Circular] }
 ```
+
+以上代码不完善，更多细节优化请参考 [如何写出一个惊艳面试官的深拷贝?](https://juejin.cn/post/6844903929705136141)
 
 参考资料:
 

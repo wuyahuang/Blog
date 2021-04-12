@@ -207,11 +207,9 @@
 
 
 * [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662)
-* [vue系列---理解Vue中的computed,watch,methods的区别及源码实现(六)](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
-* [深入剖析Vue源码 - Vue插槽，你想了解的都在这里!](https://juejin.cn/post/6844903927129849864)
+* [vue系列---理解Vue中的computed,watch,methods的区别及源码实现](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
 * [Vue nextTick实现原理](https://www.cnblogs.com/leiting/p/13174545.html)
-* [彻底搞懂Vue中keep-alive的魔法(上)](https://juejin.cn/post/6844903950886371342)
-* [彻底搞懂Vue中keep-alive的魔法(下)](https://juejin.cn/post/6844903966170431496)
+
 
 ### 操作系统
 
