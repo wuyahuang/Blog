@@ -113,36 +113,121 @@ Object.assign(target, source)
 4. 手写深拷贝
 
 ```
-function clone(target, map = new WeakMap()) {
-  // 如果目标是对象
-  if (typeof target === 'object') {
-    // 传入的 target 是不是数组
-    const isArray = Array.isArray(target);
-    let cloneTarget = isArray ? [] : {};
+const mapTag = '[object Map]';
+const setTag = '[object Set]';
+const arrayTag = '[object Array]';
+const objectTag = '[object Object]';
 
-    // 处理循环引用问题
-    if (map.get(target)) {
-      return map.get(target);
-    }
-    map.set(target, cloneTarget);
+const boolTag = '[object Boolean]';
+const dateTag = '[object Date]';
+const errorTag = '[object Error]';
+const numberTag = '[object Number]';
+const regexpTag = '[object RegExp]';
+const stringTag = '[object String]';
 
-    // 获取 target 的 keys，数组直接返回 [0,1,2,3,4]
-    let keys = Object.keys(target);
-    let index = 0;
-    const length = keys.length;
-    // 遍历 target 进行复制
-    while (index < length) {
-      let key = keys[index];
-      cloneTarget[key] = clone(target[key], map);
-      index++;
-    }
+const deepTag = [mapTag, setTag, arrayTag, objectTag];
 
-    return cloneTarget;
-  } else {
-    // 如果目标不是对象，则直接返回
-    return target;
+
+
+// 判断是否是对象
+function isObject(target) {
+  const type = typeof target;
+  return target !== null && (type === "object" || type === "function");
+}
+
+// 获取类型
+function getType(target) {
+  return Object.prototype.toString.call(target);
+}
+
+// 拷贝对象
+function getInit(target) {
+  const Ctor = target.constructor;
+  return new Ctor();
+}
+
+// Bool、Number、String、String、Date、Error 这几种类型我们都可以直接用构造函数和原始数据创建一个新对象
+function cloneOtherType(target, type) {
+  const Ctor = target.constructor;
+  switch (type) {
+    case boolTag:
+    case numberTag:
+    case stringTag:
+    case errorTag:
+    case dateTag:
+      return new Ctor(target);
+    case regexpTag:
+      return new RegExp(target);
+    default:
+      return null;
   }
 }
+
+function clone(target, map = new WeakMap()) {
+  // 如果目标不是对象，直接返回
+  if (!isObject(target)) {
+    return target;
+  }
+
+
+  // 初始化
+  const type = getType(target);
+  let cloneTarget;
+  if (deepTag.includes(type)) {
+    cloneTarget = getInit(target, type);
+  } else {
+    return cloneOtherType(target, type);
+  }
+
+  // 处理循环引用问题
+  if (map.get(target)) {
+    return map.get(target);
+  }
+  map.set(target, cloneTarget);
+
+  // 克隆set
+  if (type === setTag) {
+    target.forEach(value => {
+      cloneTarget.add(clone(value, map));
+    });
+    return cloneTarget;
+  }
+
+  // 克隆map
+  if (type === mapTag) {
+    target.forEach((value, key) => {
+      cloneTarget.set(key, clone(value, map));
+    });
+    return cloneTarget;
+  }
+
+
+  // 克隆数组和对象
+  // 传入的 target 是不是数组
+  const isArray = Array.isArray(target);
+  cloneTarget = isArray ? [] : {};
+
+  // 获取 target 的 keys，数组直接返回 [0,1,2,3,4]
+  let keys = Object.keys(target);
+  let index = 0;
+  const length = keys.length;
+  // 遍历 target 进行复制
+  while (index < length) {
+    let key = keys[index];
+    cloneTarget[key] = clone(target[key], map);
+    index++;
+  }
+  return cloneTarget;
+}
+
+
+const map = new Map();
+map.set('key', 'value');
+map.set('ConardLi', 'code秘密花园');
+
+const set = new Set();
+set.add('ConardLi');
+set.add('code秘密花园');
 
 const target = {
   field1: 1,
@@ -151,7 +236,22 @@ const target = {
     child: 'child'
   },
   field4: [2, 4, 8],
-  f: { f: { f: { f: { f: { f: { f: { f: { f: { f: { f: { f: {} } } } } } } } } } } },
+  empty: null,
+  map,
+  set,
+  bool: new Boolean(true),
+  num: new Number(2),
+  str: new String(2),
+  symbol: Object(Symbol(1)),
+  date: new Date(),
+  reg: /\d+/,
+  error: new Error(),
+  func1: () => {
+    console.log('code秘密花园');
+  },
+  func2: function (a, b) {
+    return a + b;
+  }
 };
 
 target.target = target;
@@ -162,20 +262,8 @@ console.timeEnd();
 console.log(result);
 ```
 
-输出:
-
-```
-{ field1: 1,
-  field2: undefined,
-  field3: { child: 'child' },
-  field4: [ 2, 4, 8 ],
-  f: { f: { f: [Object] } },
-  target: [Circular] }
-```
-
-以上代码不完善，更多细节优化请参考 [如何写出一个惊艳面试官的深拷贝?](https://juejin.cn/post/6844903929705136141)
-
 参考资料:
 
-[Object.assign()](https://www.jianshu.com/p/d5f572dd3776)
+* [如何写出一个惊艳面试官的深拷贝?](https://juejin.cn/post/6844903929705136141)
+* [Object.assign()](https://www.jianshu.com/p/d5f572dd3776)
 
