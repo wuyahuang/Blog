@@ -28,7 +28,7 @@
       container.innerHTML = count++;
     };
 
-    container.onmousemove = throttled(getUserAction, 1000);
+    container.onmousemove = throttle(getUserAction, 1000);
 
     // 防抖
     /**
@@ -36,7 +36,7 @@
      * @param {number} 延迟执行的时间间隔
      * @return {number[]}
      */
-    function throttled(fn, wait) {
+    function throttle(fn, wait) {
       let timeout, context, args;
       let previous = 0;
 
