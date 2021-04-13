@@ -166,15 +166,15 @@
 
 #### 转摘
 
-* [JavaScript trim函数大赏](https://www.cnblogs.com/rubylouvre/archive/2009/09/18/1568794.html)
+* [JavaScript trim 函数大赏](https://www.cnblogs.com/rubylouvre/archive/2009/09/18/1568794.html)
 * [如何写出一个惊艳面试官的深拷贝](https://cloud.tencent.com/developer/article/1497418)
 * [三行代码实现 add(1)(2)(3)](https://juejin.cn/post/6844904093467541517)
 * [JS 实现两个大数相加？](https://zhuanlan.zhihu.com/p/72179476)
 * [面试官连环追问：数组拍平（扁平化） flat 方法实现](https://segmentfault.com/a/1190000021366004)
-* [JavaScript专题之跟着 underscore 学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
-* [JavaScript专题之跟着 underscore 学节流](https://github.com/mqyqingfeng/Blog/issues/26)
-* [JavaScript专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
-* [JavaScript实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
+* [JavaScript 专题之跟着 underscore 学防抖](https://github.com/mqyqingfeng/Blog/issues/22)
+* [JavaScript 专题之跟着 underscore 学节流](https://github.com/mqyqingfeng/Blog/issues/26)
+* [JavaScript 专题之数组去重](https://github.com/mqyqingfeng/Blog/issues/27)
+* [JavaScript 实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
 * [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
 * [判断一个数是否为质数/素数——从普通判断算法到高效判断算法思路](https://blog.csdn.net/huang_miao_xin/article/details/51331710)
 
