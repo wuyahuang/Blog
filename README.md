@@ -55,6 +55,7 @@
 * [How JavaScript works: Event loop and the rise of Async programming](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
 * [How JavaScript works: memory management](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
 * [How JavaScript works: Parsing, Abstract Syntax Trees (ASTs)](https://blog.sessionstack.com/how-javascript-works-parsing-abstract-syntax-trees-asts-5-tips-on-how-to-minimize-parse-time-abfcf7e8a0c8)
+* [Using requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)
 
 
 * [JavaScript 深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
