@@ -48,8 +48,9 @@
         // 下次触发 fn 的剩余时间，间隔时间 - 当前时间与上一次 fn 执行时间的时间差
         let remaining = wait - (now - previous);
 
-        // remaining <=0，说明是第一次执行
-        // remaining > wait，说明已经过了间隔时间了，可以立即执行
+        // remaining <=0，说明当前距离上次执行的间隔时间大于等待时间，可以立即执行
+        // remaining > wait，说明改了系统时间
+        // 比如 previous = 9:01，now = 9:00，间隔时间 60s，那么 remaining = 120s，实际间隔时间到了也不会执行
         if (remaining <= 0 || remaining > wait) {
           if (timeout) {
             // 清除 timeout
