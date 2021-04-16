@@ -1,3 +1,4 @@
+```
 let array = [31, 27, 28, 42, 13, 8, 11, 30, 17, 41, 15, 43, 1, 36, 33, 14, 7, 3, 5, 9];
 
 /**
@@ -85,3 +86,4 @@ function insertionSort(array, n) {
 }
 
 console.log(quickSort(array, 0, array.length - 1));
+```
