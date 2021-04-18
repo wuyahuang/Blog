@@ -27,6 +27,7 @@
 * [208.实现 Trie (前缀树)](docs/leetcode/208.md)
 * [215.数组中的第 K 大元素](docs/leetcode/215.md)
 * [226.翻转二叉树](docs/leetcode/226.md)
+* [300.最长递增子序列](docs/leetcode/300.md)
 * [344.反转字符串](docs/leetcode/344.md)
 * [509.斐波那契数](docs/leetcode/509.md)
 * [678.有效的括号字符串](docs/leetcode/678.md)
