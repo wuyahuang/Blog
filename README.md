@@ -16,7 +16,7 @@
 * [9.回文数](docs/leetcode/9.md)
 * [24.反转链表](docs/leetcode/24.md)
 * [25.合并两个排序的链表](docs/leetcode/25.md)
-* [36. 有效的数独](docs/leetcode/36.md)
+* [36.有效的数独](docs/leetcode/36.md)
 * [69.x 的平方根](docs/leetcode/69.md)
 * [70.爬楼梯](docs/leetcode/70.md)
 * [102.二叉树的层序遍历](docs/leetcode/102.md)
