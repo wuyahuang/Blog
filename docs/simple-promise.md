@@ -12,27 +12,33 @@ function Promise2(executor) {
   this.callbacks = [];
 
   const resolve = (value) => {
-    this.data = value;
-    // 异步执行 resolve
-    setTimeout(() => {
-      // 从 callbacks 取出 then 的成功回调函数
-      while (this.callbacks.length > 0) {
-        const callback = this.callbacks.shift();
-        callback.onFulfilled(value);
-      }
-    });
+    if (this.status == PENDING) {
+      this.status = FULFILLED;
+      this.data = value;
+      // 异步执行 resolve
+      setTimeout(() => {
+        // 从 callbacks 取出 then 的成功回调函数
+        while (this.callbacks.length > 0) {
+          const callback = this.callbacks.shift();
+          callback.onFulfilled(value);
+        }
+      });
+    }
   }
 
   const reject = (value) => {
-    this.data = value;
-    // 异步执行 reject
-    setTimeout(() => {
-      // 从 callbacks 取出 then 的失败回调函数
-      while (this.callbacks.length > 0) {
-        const callback = this.callbacks.shift();
-        callback.onRejected(value);
-      }
-    });
+    if (this.status == PENDING) {
+      this.status = REJECTED;
+      this.data = value;
+      // 异步执行 reject
+      setTimeout(() => {
+        // 从 callbacks 取出 then 的失败回调函数
+        while (this.callbacks.length > 0) {
+          const callback = this.callbacks.shift();
+          callback.onRejected(value);
+        }
+      });
+    }
   }
 
   executor(resolve, reject);
