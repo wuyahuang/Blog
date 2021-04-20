@@ -51,6 +51,8 @@
 * [ES6 箭头函数二三事](docs/arrow-function.md)
 * [Object.create VS new Object()](docs/object.md)
 * [手写最简单 Promise](docs/simple-promise.md)
+* [手写最简单 Promise.all](docs/promise-all.md)
+* [手写 Promise.all](docs/promise-all.md)
 * [手写 trim](docs/trim.md)
 * [手写 bind](docs/bind.md)
 * [手写 curry](docs/curry.md)

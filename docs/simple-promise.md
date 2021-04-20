@@ -1,3 +1,5 @@
+
+```
 // 定义 Promise 三个状态
 const PENDING = 'pending';
 const FULFILLED = 'fulfilled';
@@ -72,3 +74,4 @@ test.then((result) => {
 }, (error) => {
   console.log(error);
 });
+```
