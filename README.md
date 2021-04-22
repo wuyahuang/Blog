@@ -199,6 +199,7 @@
 * [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662)
 * [vue系列---理解Vue中的computed,watch,methods的区别及源码实现](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
 * [Vue nextTick实现原理](https://www.cnblogs.com/leiting/p/13174545.html)
+* [Vue 3响应式原理 (Vue 3 Reactivity)【中英字幕】- Vue Mastery](https://www.bilibili.com/video/BV1SZ4y1x7a9?p=2)
 
 
 ### 操作系统
