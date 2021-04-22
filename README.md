@@ -208,6 +208,10 @@
 ](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
 
 
+### React.js
+
+* [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
+
 ### 操作系统
 
 
