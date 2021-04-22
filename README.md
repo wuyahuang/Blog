@@ -148,6 +148,10 @@
 * [前端浏览器动画性能优化](https://www.jianshu.com/p/d24a891d4de6)
 * [浏览器渲染流程&Composite（渲染层合并）简单总结](https://segmentfault.com/a/1190000014520786)
 
+### 异常处理
+* [如何优雅处理前端异常？(史上最全前端异常处理方案)](https://mp.weixin.qq.com/s/prf-mXexBh1Ie-ctq9FnzA)
+* [前端异常监控解决方案研究](https://mp.weixin.qq.com/s/0P4WrZtvIz_S59zalHE9UQ)
+
 
 ### 模块化
 
