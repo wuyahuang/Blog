@@ -151,6 +151,7 @@
 ### 异常处理
 * [如何优雅处理前端异常？(史上最全前端异常处理方案)](https://mp.weixin.qq.com/s/prf-mXexBh1Ie-ctq9FnzA)
 * [前端异常监控解决方案研究](https://mp.weixin.qq.com/s/0P4WrZtvIz_S59zalHE9UQ)
+* [腾讯前端团队是如何做web性能监控的？](https://mp.weixin.qq.com/s/bFNlxTHV9b-3ULARjHT7dg)
 
 
 ### 模块化
@@ -208,9 +209,12 @@
 ](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
 
 
+
 ### React.js
 
 * [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
+
+
 
 ### 操作系统
 
