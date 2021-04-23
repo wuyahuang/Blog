@@ -15,7 +15,6 @@
 * [Javascript 之 Object.create VS new Object()](docs/object.md)
 * [Javascript 之手写最简单 Promise](docs/simple-promise.md)
 * [Javascript 之手写最简单 Promise.all](docs/promise-all.md)
-* [Javascript 之手写 Promise.all](docs/promise-all.md)
 * [Javascript 之手写 trim](docs/trim.md)
 * [Javascript 之手写 bind](docs/bind.md)
 * [Javascript 之手写 curry](docs/curry.md)
