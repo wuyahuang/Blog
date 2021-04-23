@@ -148,7 +148,9 @@
 * [前端浏览器动画性能优化](https://www.jianshu.com/p/d24a891d4de6)
 * [浏览器渲染流程&Composite（渲染层合并）简单总结](https://segmentfault.com/a/1190000014520786)
 
+
 ### 异常处理
+
 * [如何优雅处理前端异常？(史上最全前端异常处理方案)](https://mp.weixin.qq.com/s/prf-mXexBh1Ie-ctq9FnzA)
 * [前端异常监控解决方案研究](https://mp.weixin.qq.com/s/0P4WrZtvIz_S59zalHE9UQ)
 * [腾讯前端团队是如何做web性能监控的？](https://mp.weixin.qq.com/s/bFNlxTHV9b-3ULARjHT7dg)
@@ -207,6 +209,7 @@
 * [Vue 3响应式原理 (Vue 3 Reactivity)【中英字幕】- Vue Mastery](https://www.bilibili.com/video/BV1SZ4y1x7a9?p=2)
 * [VUE 3 COMPOSITION API: REF VS REACTIVE
 ](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
+* [Vue.js 作者在 VueConf 2019 上海演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
 
 
 
