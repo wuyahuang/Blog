@@ -1,7 +1,4 @@
-# Data structure and algorithms.
-
-
-### 杂谈
+# Blog
 
 * [区块链的基石 - ECC 椭圆曲线密码学](docs/ecc.md)
 * [为什么很多编程语言的数组下标从 0 开始](docs/why-array-index-starts-from-zero.md)
@@ -10,6 +7,32 @@
 * [排序](docs/sort/README.md)
 * [二分查找](docs/binary-search.md)
 * [简单的 Vue 3 响应式原理源码实现](docs/binary-search.md)
+
+* [Javascript 之为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
+* [Javascript 之事件循环机制](docs/event-loop.md)
+* [Javascript 之对象拷贝](docs/clone.md)
+* [Javascript 之 ES6 箭头函数二三事](docs/arrow-function.md)
+* [Javascript 之 Object.create VS new Object()](docs/object.md)
+* [Javascript 之手写最简单 Promise](docs/simple-promise.md)
+* [Javascript 之手写最简单 Promise.all](docs/promise-all.md)
+* [Javascript 之手写 Promise.all](docs/promise-all.md)
+* [Javascript 之手写 trim](docs/trim.md)
+* [Javascript 之手写 bind](docs/bind.md)
+* [Javascript 之手写 curry](docs/curry.md)
+* [Javascript 之手写 new](docs/new.md)
+* [Javascript 之手写 继承](docs/extend.md)
+
+* [Javascript 之两个大数相加](docs/program/sum.md)
+* [JavaScript 之实现千位分隔符](docs/program/commaFormat.md)
+* [Javascript 之数组去重](docs/program/unique.md)
+* [Javascript 之判断是否为质数](docs/program/isPrime.md)
+* [Javascript 之数组拍平 flat](docs/program/flat.md)
+* [Javascript 之防抖](docs/program/debounce.md)
+* [Javascript 之节流](docs/program/throttled.md)
+
+* [CSS 之手写圣杯布局](docs/css/holy-grail.html)
+* [CSS 之手写双飞翼布局](docs/css/flying-swing.html)
+
 
 
 ### LeetCode
@@ -36,32 +59,12 @@
 * [1663.具有给定数值的最小字符串](docs/leetcode/1663.md)
 
 
-### Hybrid APP
 
-* [H5 与 Native 交互之 JSBridge 技术](https://segmentfault.com/a/1190000010356403?utm_source=sf-similar-article)
+## 转摘
 
 
 ### Javascript
 
-
-#### 原创
-
-* [为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
-* [Javascript 事件循环机制](docs/event-loop.md)
-* [Javascript 对象拷贝](docs/clone.md)
-* [ES6 箭头函数二三事](docs/arrow-function.md)
-* [Object.create VS new Object()](docs/object.md)
-* [手写最简单 Promise](docs/simple-promise.md)
-* [手写最简单 Promise.all](docs/promise-all.md)
-* [手写 Promise.all](docs/promise-all.md)
-* [手写 trim](docs/trim.md)
-* [手写 bind](docs/bind.md)
-* [手写 curry](docs/curry.md)
-* [手写 new](docs/new.md)
-* [手写 继承](docs/extend.md)
-
-
-#### 转摘
 
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 * [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
@@ -95,14 +98,6 @@
 ### CSS
 
 
-#### 原创
-
-* [手写圣杯布局](docs/css/holy-grail.html)
-* [手写双飞翼布局](docs/css/flying-swing.html)
-
-
-#### 转摘
-
 * [CSS 盒模型完整介绍](https://segmentfault.com/a/1190000013069516)
 * [CSS 选择器，一篇就够了](https://segmentfault.com/a/1190000013424772)
 * [10 分钟理解 BFC 原理](https://zhuanlan.zhihu.com/p/25321647)
@@ -122,8 +117,6 @@
 ### HTML
 
 
-#### 转摘
-
 * [彻底理解行内元素和块级元素，不必硬背](https://www.cnblogs.com/yc8930143/p/7237456.html)
 * [面试官：前端跨页面通信，你知道哪些方法？](https://juejin.cn/post/6844903811232825357)
 * [前端路由的两种模式：hash模式和 history模式](https://blog.csdn.net/Charissa2017/article/details/104779412)
@@ -135,10 +128,16 @@
 * [深入了解 JavaScript 内存泄露](https://segmentfault.com/a/1190000020231307)
 
 
+
+### Hybrid APP
+
+
+* [H5 与 Native 交互之 JSBridge 技术](https://segmentfault.com/a/1190000010356403?utm_source=sf-similar-article)
+
+
+
 ### 性能优化
 
-
-#### 转摘
 
 * [前端性能优化 - 用RAIL模型分析性能](https://juejin.cn/post/6850037273312886797)
 * [🚵 前端性能优化之旅](https://alienzhou.com/projects/fe-performance-journey/#%E5%89%8D%E7%AB%AF%E9%9C%80%E8%A6%81%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%88%EF%BC%9F)
@@ -150,17 +149,18 @@
 * [浏览器渲染流程&Composite（渲染层合并）简单总结](https://segmentfault.com/a/1190000014520786)
 
 
+
 ### 异常处理
+
 
 * [如何优雅处理前端异常？(史上最全前端异常处理方案)](https://mp.weixin.qq.com/s/prf-mXexBh1Ie-ctq9FnzA)
 * [前端异常监控解决方案研究](https://mp.weixin.qq.com/s/0P4WrZtvIz_S59zalHE9UQ)
 * [腾讯前端团队是如何做web性能监控的？](https://mp.weixin.qq.com/s/bFNlxTHV9b-3ULARjHT7dg)
 
 
+
 ### 模块化
 
-
-#### 转摘
 
 * [前端模块化详解(完整版)](https://segmentfault.com/a/1190000017466120)
 * [Tree-Shaking性能优化实践 - 原理篇](https://juejin.cn/post/6844903544756109319)
@@ -173,20 +173,9 @@
 * [可能是你见过最完善的微前端解决方案](https://tech.antfin.com/community/articles/536)
 
 
+
 ### 编程题
 
-#### 手写
-
-* [Javascript 两个大数相加](docs/program/sum.md)
-* [JavaScript 实现千位分隔符](docs/program/commaFormat.md)
-* [Javascript 数组去重](docs/program/unique.md)
-* [Javascript 判断是否为质数](docs/program/isPrime.md)
-* [Javascript 数组拍平 flat](docs/program/flat.md)
-* [Javascript 防抖](docs/program/debounce.md)
-* [Javascript 节流](docs/program/throttled.md)
-
-
-#### 转摘
 
 * [JavaScript trim 函数大赏](https://www.cnblogs.com/rubylouvre/archive/2009/09/18/1568794.html)
 * [如何写出一个惊艳面试官的深拷贝](https://cloud.tencent.com/developer/article/1497418)
@@ -199,6 +188,7 @@
 * [JavaScript 实现千位分隔符](https://www.jianshu.com/p/928c68f92c0c)
 * [underscore 系列之实现一个模板引擎(上)](https://github.com/mqyqingfeng/Blog/issues/63)
 * [判断一个数是否为质数/素数——从普通判断算法到高效判断算法思路](https://blog.csdn.net/huang_miao_xin/article/details/51331710)
+
 
 
 ### Vue.js
@@ -216,6 +206,7 @@
 
 ### React.js
 
+
 * [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
 * [这可能是最通俗的 React Fiber(时间分片) 打开方式](https://juejin.cn/post/6844903975112671239)
 
@@ -223,14 +214,14 @@
 
 ### Web 安全
 
+
 * [前端安全系列（一）：如何防止XSS攻击？](https://juejin.cn/post/6844903685122703367)
 * [前端安全系列之二：如何防止CSRF攻击？](https://juejin.cn/post/6844903689702866952)
 
 
+
 ### 操作系统
 
-
-#### 转摘
 
 * [一篇让你明白进程与线程之间的区别与联系](https://juejin.cn/post/6844903801321685000)
 * [进程间通信IPC (InterProcess Communication)](https://www.jianshu.com/p/c1015f5ffa74)
@@ -239,10 +230,9 @@
 * [📔【操作系统】I/O 多路复用，select / poll / epoll 详解](https://imageslr.github.io/2020/02/27/select-poll-epoll.html)
 
 
+
 ### 网络
 
-
-#### 转摘
 
 * [OSI 7层模型和TCP/IP 4层模型](https://zhuanlan.zhihu.com/p/32059190)
 * [HTTP的前世今生](https://coolshell.cn/articles/19840.html)
@@ -254,10 +244,9 @@
 * [UDP详解](https://zhuanlan.zhihu.com/p/337678680)
 
 
+
 ### Node
 
-
-#### 转摘
 
 * [深入了解Nodejs模块机制](https://juejin.cn/post/6844904030905303054)
 * [require() 源码解读](http://www.ruanyifeng.com/blog/2015/05/require.html)
@@ -270,10 +259,9 @@
 * [Node.js 捕获异常的一些探索](http://www.alloyteam.com/2013/12/node-js-series-exception-caught/)
 
 
+
 ### 架构设计
 
-
-#### 转摘
 
 * [设计模式](https://refactoringguru.cn/design-patterns)
 * [代码重构之道](https://www.jianshu.com/p/f667ea3e4a11)
