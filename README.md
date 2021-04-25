@@ -92,6 +92,7 @@
 * [浅谈 instanceof 和 typeof 的实现原理](https://juejin.cn/post/6844903613584654344)
 * [JavaScript：立即执行函数表达式（IIFE）](https://segmentfault.com/a/1190000003985390)
 * [视频: 手写 PROMISE 核心代码，提升 JAVASCRIPT 编程能力](https://www.bilibili.com/video/BV137411e7KA?p=2)
+* [九种跨域方式实现原理（完整版）](https://juejin.cn/post/6844903767226351623)
 
 
 ### CSS
