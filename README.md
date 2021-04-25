@@ -200,7 +200,7 @@
 * [VUE 3 COMPOSITION API: REF VS REACTIVE
 ](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
 * [Vue.js 作者在 VueConf 2019 上海演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
-
+* [实现最简 vue3 模型，用于深入学习 vue3](https://github.com/cuixiaorui/mini-vue/blob/master/README_CN.md)
 
 
 ### React.js
