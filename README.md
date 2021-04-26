@@ -173,7 +173,7 @@
 * [webpack-插件机制杂记](https://juejin.cn/post/6844903789804126222)
 * [webpack源码学习系列之三：loader 机制](https://github.com/youngwind/blog/issues/101)
 * [可能是你见过最完善的微前端解决方案](https://tech.antfin.com/community/articles/536)
-
+* [平庸前端码农之蜕变 — AST](https://juejin.cn/post/6844903725228621832)
 
 
 ### 编程题
