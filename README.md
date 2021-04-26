@@ -95,6 +95,8 @@
 * [九种跨域方式实现原理（完整版）](https://juejin.cn/post/6844903767226351623)
 * [JSON in JavaScript - douglas crockford](https://github.com/douglascrockford/JSON-js)
 * [神奇的eval()与new Function()](https://yscoder.github.io/20151222/eval-with-new-function.html)
+* [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js)
+
 
 
 ### CSS
