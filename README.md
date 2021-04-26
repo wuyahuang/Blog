@@ -149,7 +149,7 @@
 * [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
 * [前端浏览器动画性能优化](https://www.jianshu.com/p/d24a891d4de6)
 * [浏览器渲染流程&Composite（渲染层合并）简单总结](https://segmentfault.com/a/1190000014520786)
-
+* [「前端进阶」高性能渲染十万条数据(虚拟列表)](https://juejin.cn/post/6844903982742110216)
 
 
 ### 异常处理
@@ -239,7 +239,7 @@
 * [OSI 7层模型和TCP/IP 4层模型](https://zhuanlan.zhihu.com/p/32059190)
 * [HTTP的前世今生](https://coolshell.cn/articles/19840.html)
 * [深入理解HTTPS原理、过程与实践](https://zhuanlan.zhihu.com/p/26682342)
-* [深入理解http2.0协议，看这篇就够了！](https://juejin.cn/post/6844903984524705800)
+* [HTTP2 详解](https://juejin.cn/post/6844903667569541133)
 * [HTTP3.0和QUIC协议那些事](https://blog.csdn.net/wolfGuiDao/article/details/108729560)
 * [websocket 协议详解及报文分析](https://blog.csdn.net/LL845876425/article/details/106393358)
 * [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
