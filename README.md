@@ -93,7 +93,8 @@
 * [JavaScript：立即执行函数表达式（IIFE）](https://segmentfault.com/a/1190000003985390)
 * [视频: 手写 PROMISE 核心代码，提升 JAVASCRIPT 编程能力](https://www.bilibili.com/video/BV137411e7KA?p=2)
 * [九种跨域方式实现原理（完整版）](https://juejin.cn/post/6844903767226351623)
-* [JSON in JavaScript - douglascrockford](https://github.com/douglascrockford/JSON-js)
+* [JSON in JavaScript - douglas crockford](https://github.com/douglascrockford/JSON-js)
+* [神奇的eval()与new Function()](https://yscoder.github.io/20151222/eval-with-new-function.html)
 
 
 ### CSS
