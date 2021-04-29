@@ -214,6 +214,7 @@
 
 * [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
 * [这可能是最通俗的 React Fiber(时间分片) 打开方式](https://juejin.cn/post/6844903975112671239)
+* [由浅到深的React合成事件](https://juejin.cn/post/6844903988794671117)
 
 
 
