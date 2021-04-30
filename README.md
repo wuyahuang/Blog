@@ -214,7 +214,12 @@
 
 * [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
 * [这可能是最通俗的 React Fiber(时间分片) 打开方式](https://juejin.cn/post/6844903975112671239)
-* [由浅到深的React合成事件](https://juejin.cn/post/6844903988794671117)
+* [React 事件系统工作原理](https://zhuanlan.zhihu.com/p/338904728)
+* [React 系列 --- virtualdom diff 算法实现分析](https://segmentfault.com/a/1190000019994425)
+* [深入 React Fiber 架构及源码](https://zhuanlan.zhihu.com/p/57346388)
+* [React Hooks源码解析，原来这么简单～](https://juejin.cn/post/6844904080758800392)
+* [React 高阶组件](https://zh-hans.reactjs.org/docs/higher-order-components.html)
+* [从源码看 React 异常处理](https://github.com/HuJiaoHJ/blog/issues/12)
 * [React 项目性能分析及优化](https://github.com/brickspert/blog/issues/36)
 
 
