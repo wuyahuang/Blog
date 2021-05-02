@@ -44,6 +44,7 @@
 * [23.合并K个升序链表](docs/leetcode/23.md)
 * [25.K 个一组翻转链表](docs/leetcode/25.md)
 * [36.有效的数独](docs/leetcode/36.md)
+* [53.最大子序和](docs/leetcode/69.md)
 * [69.x 的平方根](docs/leetcode/69.md)
 * [70.爬楼梯](docs/leetcode/70.md)
 * [102.二叉树的层序遍历](docs/leetcode/102.md)
