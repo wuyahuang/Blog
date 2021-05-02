@@ -49,6 +49,7 @@
 * [104.二叉树的最大深度](docs/leetcode/104.md)
 * [141.环形链表](docs/leetcode/141.md)
 * [146.LRU 缓存机制](docs/leetcode/146.md)
+* [160.相交链表](docs/leetcode/160.md)
 * [204.计数质数](docs/leetcode/204.md)
 * [206.反转链表](docs/leetcode/24.md)
 * [208.实现 Trie (前缀树)](docs/leetcode/208.md)
