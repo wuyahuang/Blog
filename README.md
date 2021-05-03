@@ -62,6 +62,7 @@
 * [509.斐波那契数](docs/leetcode/509.md)
 * [678.有效的括号字符串](docs/leetcode/678.md)
 * [821.字符的最短距离](docs/leetcode/821.md)
+* [1143.最长公共子序列](docs/leetcode/1143.md)
 * [1663.具有给定数值的最小字符串](docs/leetcode/1663.md)
 
 
