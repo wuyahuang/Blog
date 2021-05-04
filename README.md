@@ -66,6 +66,7 @@
 * [53.最大子序和](docs/leetcode/69.md)
 * [509.斐波那契数](docs/leetcode/509.md)
 * [70.爬楼梯](docs/leetcode/70.md)
+* [121.买卖股票的最佳时机](docs/leetcode/121.md)
 * [322.零钱兑换](docs/leetcode/322.md)
 * [1143.最长公共子序列](docs/leetcode/1143.md)
 
