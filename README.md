@@ -141,7 +141,7 @@
 * [Chrome 浏览器架构](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
 * [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 * [深入了解 JavaScript 内存泄露](https://segmentfault.com/a/1190000020231307)
-
+* [Scripts: async, defer](https://javascript.info/script-async-defer)
 
 
 ### Hybrid APP
