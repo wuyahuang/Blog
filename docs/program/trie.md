@@ -25,7 +25,7 @@ let input = [
 [208. 实现 Trie (前缀树)]((https://leetcode-cn.com/problems/implement-trie-prefix-tree/))
 
 
-![implement-trie-prefix-tree.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6661647fc49e48f28197aeb79d0c1f0d~tplv-k3u1fbpfcp-watermark.image)
+![implement-trie-prefix-tree.png](../../assets/trie.png)
 
 如上图所示，我们通过一个树形结构，用少量的空间存储了 ana、and、ann、bag、cat、day、dog 7 个单词，单词越多，节约的空间越多。
 
