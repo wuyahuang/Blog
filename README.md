@@ -217,18 +217,18 @@
 ](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
 * [Vue.js 作者在 VueConf 2019 上海演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
 * [实现最简 vue3 模型，用于深入学习 vue3](https://github.com/cuixiaorui/mini-vue/blob/master/README_CN.md)
-* [React、Vue2、Vue3的三种Diff算法](https://juejin.cn/post/6919376064833667080)
+* [React、Vue2、Vue3 的三种 Diff 算法](https://juejin.cn/post/6919376064833667080)
 
 ### React.js
 
 
 * [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
 * [这可能是最通俗的 React Fiber(时间分片) 打开方式](https://juejin.cn/post/6844903975112671239)
-* [你真的理解setState吗？](https://juejin.cn/post/6844903636749778958)
+* [你真的理解 setState 吗？](https://juejin.cn/post/6844903636749778958)
 * [React 事件系统工作原理](https://zhuanlan.zhihu.com/p/338904728)
 * [React 系列 --- virtualdom diff 算法实现分析](https://segmentfault.com/a/1190000019994425)
 * [深入 React Fiber 架构及源码](https://zhuanlan.zhihu.com/p/57346388)
-* [React Hooks源码解析，原来这么简单～](https://juejin.cn/post/6844904080758800392)
+* [React Hooks 源码解析，原来这么简单～](https://juejin.cn/post/6844904080758800392)
 * [React 高阶组件](https://zh-hans.reactjs.org/docs/higher-order-components.html)
 * [从源码看 React 异常处理](https://github.com/HuJiaoHJ/blog/issues/12)
 * [React 项目性能分析及优化](https://github.com/brickspert/blog/issues/36)
@@ -238,8 +238,8 @@
 ### Web 安全
 
 
-* [前端安全系列（一）：如何防止XSS攻击？](https://juejin.cn/post/6844903685122703367)
-* [前端安全系列之二：如何防止CSRF攻击？](https://juejin.cn/post/6844903689702866952)
+* [前端安全系列（一）：如何防止 XSS 攻击？](https://juejin.cn/post/6844903685122703367)
+* [前端安全系列之二：如何防止 CSRF 攻击？](https://juejin.cn/post/6844903689702866952)
 
 
 
@@ -257,28 +257,28 @@
 ### 网络
 
 
-* [OSI 7层模型和TCP/IP 4层模型](https://zhuanlan.zhihu.com/p/32059190)
-* [HTTP的前世今生](https://coolshell.cn/articles/19840.html)
-* [深入理解HTTPS原理、过程与实践](https://zhuanlan.zhihu.com/p/26682342)
+* [OSI 7 层模型和 TCP/IP 4 层模型](https://zhuanlan.zhihu.com/p/32059190)
+* [HTTP 的前世今生](https://coolshell.cn/articles/19840.html)
+* [深入理解 HTTPS 原理、过程与实践](https://zhuanlan.zhihu.com/p/26682342)
 * [HTTP2 详解](https://juejin.cn/post/6844903667569541133)
-* [HTTP3.0和QUIC协议那些事](https://blog.csdn.net/wolfGuiDao/article/details/108729560)
-* [websocket 协议详解及报文分析](https://blog.csdn.net/LL845876425/article/details/106393358)
+* [HTTP3.0 和 QUIC 协议那些事](https://blog.csdn.net/wolfGuiDao/article/details/108729560)
+* [WebSocket 协议详解及报文分析](https://blog.csdn.net/LL845876425/article/details/106393358)
 * [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
-* [UDP详解](https://zhuanlan.zhihu.com/p/337678680)
-
+* [UDP 详解](https://zhuanlan.zhihu.com/p/337678680)
+* [HTTP 301 和 302 的区别]()
 
 
 ### Node
 
 
-* [深入了解Nodejs模块机制](https://juejin.cn/post/6844904030905303054)
+* [深入了解 Nodejs 模块机制](https://juejin.cn/post/6844904030905303054)
 * [require() 源码解读](http://www.ruanyifeng.com/blog/2015/05/require.html)
 * [Node.js 事件循环-比官方更全面](https://learnku.com/articles/38802)
-* [【nodejs原理&源码赏析（4）】深度剖析cluster模块源码与node.js多进程（上）](https://www.cnblogs.com/dashnowords/p/10958457.html)
+* [【Node.js原理&源码赏析（4）】深度剖析 Cluster 模块源码与 Node.js 多进程（上）](https://www.cnblogs.com/dashnowords/p/10958457.html)
 * [深入理解 Node Stream 内部机制](https://www.barretlee.com/blog/2017/06/06/dive-to-nodejs-at-stream-module/)
-* [Nodejs Stream pipe 的使用与实现原理分析](https://cloud.tencent.com/developer/article/1630068)
-* [Nodejs 编写守护进程](https://juejin.cn/post/6844903444839399438)
-* [Nodejs进程间通信](http://www.ayqy.net/blog/nodejs%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/)
+* [Node.js Stream pipe 的使用与实现原理分析](https://cloud.tencent.com/developer/article/1630068)
+* [Node.js 编写守护进程](https://juejin.cn/post/6844903444839399438)
+* [Node.js 进程间通信](http://www.ayqy.net/blog/nodejs%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/)
 * [Node.js 捕获异常的一些探索](http://www.alloyteam.com/2013/12/node-js-series-exception-caught/)
 
 
