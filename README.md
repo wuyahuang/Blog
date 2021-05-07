@@ -108,6 +108,8 @@
 * [JSON in JavaScript - douglas crockford](https://github.com/douglascrockford/JSON-js)
 * [神奇的eval()与new Function()](https://yscoder.github.io/20151222/eval-with-new-function.html)
 * [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js)
+* [从观察者模式到手写EventEmitter源码](https://juejin.cn/post/6844903678327914504)
+
 
 
 
