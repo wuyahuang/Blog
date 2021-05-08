@@ -62,7 +62,7 @@
 * [821.字符的最短距离](docs/leetcode/821.md)
 * [1663.具有给定数值的最小字符串](docs/leetcode/1663.md)
 
-##### 动态规划相关
+#### 动态规划相关
 
 * [53.最大子序和](docs/leetcode/69.md)
 * [509.斐波那契数](docs/leetcode/509.md)
@@ -70,6 +70,7 @@
 * [121.买卖股票的最佳时机](docs/leetcode/121.md)
 * [322.零钱兑换](docs/leetcode/322.md)
 * [1143.最长公共子序列](docs/leetcode/1143.md)
+
 
 ## 转摘
 
@@ -190,7 +191,7 @@
 * [webpack源码学习系列之三：loader 机制](https://github.com/youngwind/blog/issues/101)
 * [可能是你见过最完善的微前端解决方案](https://tech.antfin.com/community/articles/536)
 * [平庸前端码农之蜕变 — AST](https://juejin.cn/post/6844903725228621832)
-
+* [import、require、export、module.exports 混合使用详解](https://juejin.cn/post/6844903520865386510)
 
 ### 编程题
 
@@ -221,6 +222,7 @@
 * [Vue.js 作者在 VueConf 2019 上海演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
 * [实现最简 vue3 模型，用于深入学习 vue3](https://github.com/cuixiaorui/mini-vue/blob/master/README_CN.md)
 * [React、Vue2、Vue3 的三种 Diff 算法](https://juejin.cn/post/6919376064833667080)
+
 
 ### React.js
 
