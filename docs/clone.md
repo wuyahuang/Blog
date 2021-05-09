@@ -154,14 +154,14 @@ function getInit(target) {
     return new Ctor();
 }
 
-function cloneSymbol(targe) {
-    return Object(Symbol.prototype.valueOf.call(targe));
+function cloneSymbol(target) {
+    return Object(Symbol.prototype.valueOf.call(target));
 }
 
-function cloneReg(targe) {
+function cloneReg(target) {
     const reFlags = /\w*$/;
-    const result = new targe.constructor(targe.source, reFlags.exec(targe));
-    result.lastIndex = targe.lastIndex;
+    const result = new target.constructor(target.source, reFlags.exec(target));
+    result.lastIndex = target.lastIndex;
     return result;
 }
 
