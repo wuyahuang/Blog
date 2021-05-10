@@ -64,7 +64,7 @@
 
 #### 动态规划相关
 
-* [43.接雨水](docs/leetcode/43.md)
+* [42.接雨水](docs/leetcode/43.md)
 * [53.最大子序和](docs/leetcode/69.md)
 * [509.斐波那契数](docs/leetcode/509.md)
 * [70.爬楼梯](docs/leetcode/70.md)
