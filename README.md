@@ -62,6 +62,7 @@
 * [821.字符的最短距离](docs/leetcode/821.md)
 * [1663.具有给定数值的最小字符串](docs/leetcode/1663.md)
 
+
 #### 动态规划相关
 
 * [42.接雨水](docs/leetcode/43.md)
@@ -77,7 +78,6 @@
 
 
 ### Javascript
-
 
 * [How JavaScript works: an overview of the engine, the runtime, and the call stack](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf)
 * [How JavaScript works: inside the V8 engine + 5 tips on how to write optimized code](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
@@ -97,7 +97,7 @@
 
 
 * [详解 JavaScript 中的 Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
-* [30分钟，让你彻底明白 Promise 原理](https://mengera88.github.io/2017/05/18/Promise%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
+* [30 分钟，让你彻底明白 Promise 原理](https://mengera88.github.io/2017/05/18/Promise%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/)
 * [深入理解 Generators](http://www.alloyteam.com/2016/02/generators-in-depth/)
 * [「前端进阶」彻底弄懂函数柯里化](https://juejin.cn/post/6844903882208837645)
 * [一文搞懂 V8 引擎的垃圾回收](https://juejin.cn/post/6844904016325902344)
@@ -108,15 +108,14 @@
 * [视频: 手写 PROMISE 核心代码，提升 JAVASCRIPT 编程能力](https://www.bilibili.com/video/BV137411e7KA?p=2)
 * [九种跨域方式实现原理（完整版）](https://juejin.cn/post/6844903767226351623)
 * [JSON in JavaScript - douglas crockford](https://github.com/douglascrockford/JSON-js)
-* [神奇的eval()与new Function()](https://yscoder.github.io/20151222/eval-with-new-function.html)
+* [神奇的 eval() 与 new Function()](https://yscoder.github.io/20151222/eval-with-new-function.html)
 * [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler/blob/master/the-super-tiny-compiler.js)
-* [从观察者模式到手写EventEmitter源码](https://juejin.cn/post/6844903678327914504)
+* [从观察者模式到手写 EventEmitter 源码](https://juejin.cn/post/6844903678327914504)
 
 
 
 
 ### CSS
-
 
 * [CSS 盒模型完整介绍](https://segmentfault.com/a/1190000013069516)
 * [CSS 选择器，一篇就够了](https://segmentfault.com/a/1190000013424772)
@@ -131,15 +130,14 @@
 * [深入理解 CSS 中的层叠上下文和层叠顺序](https://www.zhangxinxu.com/wordpress/2016/01/understand-css-stacking-context-order-z-index/)
 * [DIV 居中的几种方法](https://juejin.cn/post/6844903821529841671)
 * [带你彻底了解 CSS 浮动](https://segmentfault.com/a/1190000012739764)
-* [你真的理解@import和link引入样式的区别吗](https://juejin.cn/post/6844903581649207309)
+* [你真的理解 @import 和 link 引入样式的区别吗](https://juejin.cn/post/6844903581649207309)
 
 
 ### HTML
 
-
 * [彻底理解行内元素和块级元素，不必硬背](https://www.cnblogs.com/yc8930143/p/7237456.html)
 * [面试官：前端跨页面通信，你知道哪些方法？](https://juejin.cn/post/6844903811232825357)
-* [前端路由的两种模式：hash模式和 history模式](https://blog.csdn.net/Charissa2017/article/details/104779412)
+* [前端路由的两种模式：hash 模式和 history 模式](https://blog.csdn.net/Charissa2017/article/details/104779412)
 * [JavaScript 是如何影响 DOM 生成的](https://blog.poetries.top/browser-working-principle/guide/part5/lesson22.html#javascript-%E6%98%AF%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D-dom-%E7%94%9F%E6%88%90%E7%9A%84)
 * [事件模型](https://javascript.ruanyifeng.com/dom/event.html)
 * [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
@@ -151,15 +149,13 @@
 
 ### Hybrid APP
 
-
 * [H5 与 Native 交互之 JSBridge 技术](https://segmentfault.com/a/1190000010356403?utm_source=sf-similar-article)
 
 
 
 ### 性能优化
 
-
-* [前端性能优化 - 用RAIL模型分析性能](https://juejin.cn/post/6850037273312886797)
+* [前端性能优化 - 用 RAIL 模型分析性能](https://juejin.cn/post/6850037273312886797)
 * [🚵 前端性能优化之旅](https://alienzhou.com/projects/fe-performance-journey/#%E5%89%8D%E7%AB%AF%E9%9C%80%E8%A6%81%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%88%EF%BC%9F)
 * [重排(reflow)和重绘(repaint)](https://juejin.cn/post/6844904083212468238)
 * [前端性能优化之白屏时间](https://cloud.tencent.com/developer/article/1508941)
@@ -172,31 +168,28 @@
 
 ### 异常处理
 
-
 * [如何优雅处理前端异常？(史上最全前端异常处理方案)](https://mp.weixin.qq.com/s/prf-mXexBh1Ie-ctq9FnzA)
 * [前端异常监控解决方案研究](https://mp.weixin.qq.com/s/0P4WrZtvIz_S59zalHE9UQ)
-* [腾讯前端团队是如何做web性能监控的？](https://mp.weixin.qq.com/s/bFNlxTHV9b-3ULARjHT7dg)
+* [腾讯前端团队是如何做 web 性能监控的？](https://mp.weixin.qq.com/s/bFNlxTHV9b-3ULARjHT7dg)
 
 
 
 ### 模块化
 
-
 * [前端模块化详解(完整版)](https://segmentfault.com/a/1190000017466120)
-* [Tree-Shaking性能优化实践 - 原理篇](https://juejin.cn/post/6844903544756109319)
-* [你的Tree-Shaking并没什么卵用](https://zhuanlan.zhihu.com/p/32831172)
-* [从一个误写的逗号谈开去——JS代码是如何被压缩的](https://www.h5w3.com/19480.html)
+* [Tree-Shaking 性能优化实践 - 原理篇](https://juejin.cn/post/6844903544756109319)
+* [你的 Tree-Shaking 并没什么卵用](https://zhuanlan.zhihu.com/p/32831172)
+* [从一个误写的逗号谈开去—— JS 代码是如何被压缩的](https://www.h5w3.com/19480.html)
 * [你不知道的 Babel（7000字，详解原理并手写插件）](https://my.oschina.net/u/4088983/blog/4545928)
 * [细说 webpack 之流程篇](https://developer.aliyun.com/article/61047)
-* [webpack-插件机制杂记](https://juejin.cn/post/6844903789804126222)
-* [webpack源码学习系列之三：loader 机制](https://github.com/youngwind/blog/issues/101)
+* [webpack 插件机制杂记](https://juejin.cn/post/6844903789804126222)
+* [webpack 源码学习系列之三：loader 机制](https://github.com/youngwind/blog/issues/101)
 * [可能是你见过最完善的微前端解决方案](https://tech.antfin.com/community/articles/536)
 * [平庸前端码农之蜕变 — AST](https://juejin.cn/post/6844903725228621832)
 * [import、require、export、module.exports 混合使用详解](https://juejin.cn/post/6844903520865386510)
 
 
 ### 编程题
-
 
 * [JavaScript trim 函数大赏](https://www.cnblogs.com/rubylouvre/archive/2009/09/18/1568794.html)
 * [如何写出一个惊艳面试官的深拷贝](https://cloud.tencent.com/developer/article/1497418)
@@ -214,20 +207,17 @@
 
 ### Vue.js
 
-
 * [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662)
-* [vue系列---理解Vue中的computed,watch,methods的区别及源码实现](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
+* [Vue 系列---理解 Vue 中的 computed,watch,methods 的区别及源码实现](https://www.cnblogs.com/tugenhua0707/p/11760466.html)
 * [Vue nextTick实现原理](https://www.cnblogs.com/leiting/p/13174545.html)
 * [Vue 3响应式原理 (Vue 3 Reactivity)【中英字幕】- Vue Mastery](https://www.bilibili.com/video/BV1SZ4y1x7a9?p=2)
-* [VUE 3 COMPOSITION API: REF VS REACTIVE
-](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
+* [VUE 3 COMPOSITION API: REF VS REACTIVE](https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/)
 * [Vue.js 作者在 VueConf 2019 上海演讲视频](https://www.yuque.com/vueconf/2019/gwn1z0)
 * [实现最简 vue3 模型，用于深入学习 vue3](https://github.com/cuixiaorui/mini-vue/blob/master/README_CN.md)
 * [React、Vue2、Vue3 的三种 Diff 算法](https://juejin.cn/post/6919376064833667080)
 
 
 ### React.js
-
 
 * [从中断机制看 React Fiber 技术](https://mp.weixin.qq.com/s/hbbFjOU3Xip02ooYl5F_Bg)
 * [这可能是最通俗的 React Fiber(时间分片) 打开方式](https://juejin.cn/post/6844903975112671239)
@@ -239,11 +229,10 @@
 * [React 高阶组件](https://zh-hans.reactjs.org/docs/higher-order-components.html)
 * [从源码看 React 异常处理](https://github.com/HuJiaoHJ/blog/issues/12)
 * [React 项目性能分析及优化](https://github.com/brickspert/blog/issues/36)
-* [React Hook之“额外的 Hook”](https://juejin.cn/post/6844904149230813192)
+* [React Hook 之 "额外的 Hook"](https://juejin.cn/post/6844904149230813192)
 
 
 ### Web 安全
-
 
 * [前端安全系列（一）：如何防止 XSS 攻击？](https://juejin.cn/post/6844903685122703367)
 * [前端安全系列之二：如何防止 CSRF 攻击？](https://juejin.cn/post/6844903689702866952)
@@ -252,9 +241,8 @@
 
 ### 操作系统
 
-
 * [一篇让你明白进程与线程之间的区别与联系](https://juejin.cn/post/6844903801321685000)
-* [进程间通信IPC (InterProcess Communication)](https://www.jianshu.com/p/c1015f5ffa74)
+* [进程间通信 IPC (InterProcess Communication)](https://www.jianshu.com/p/c1015f5ffa74)
 * [操作系统中的进程调度策略有哪几种](https://blog.csdn.net/qq_35642036/article/details/82809812)
 * [死锁是什么？如何避免死锁？](https://www.jianshu.com/p/44125bb12ebf)
 * [📔【操作系统】I/O 多路复用，select / poll / epoll 详解](https://imageslr.github.io/2020/02/27/select-poll-epoll.html)
@@ -263,12 +251,11 @@
 
 ### 网络
 
-
 * [OSI 7 层模型和 TCP/IP 4 层模型](https://zhuanlan.zhihu.com/p/32059190)
 * [HTTP 的前世今生](https://coolshell.cn/articles/19840.html)
 * [深入理解 HTTPS 原理、过程与实践](https://zhuanlan.zhihu.com/p/26682342)
-* [HTTP2 详解](https://juejin.cn/post/6844903667569541133)
-* [HTTP3.0 和 QUIC 协议那些事](https://blog.csdn.net/wolfGuiDao/article/details/108729560)
+* [HTTP 2 详解](https://juejin.cn/post/6844903667569541133)
+* [HTTP 3.0 和 QUIC 协议那些事](https://blog.csdn.net/wolfGuiDao/article/details/108729560)
 * [WebSocket 协议详解及报文分析](https://blog.csdn.net/LL845876425/article/details/106393358)
 * [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
 * [UDP 详解](https://zhuanlan.zhihu.com/p/337678680)
@@ -277,11 +264,10 @@
 
 ### Node
 
-
 * [深入了解 Nodejs 模块机制](https://juejin.cn/post/6844904030905303054)
 * [require() 源码解读](http://www.ruanyifeng.com/blog/2015/05/require.html)
 * [Node.js 事件循环-比官方更全面](https://learnku.com/articles/38802)
-* [【Node.js原理&源码赏析（4）】深度剖析 Cluster 模块源码与 Node.js 多进程（上）](https://www.cnblogs.com/dashnowords/p/10958457.html)
+* [深度剖析 Cluster 模块源码](https://www.cnblogs.com/dashnowords/p/10958457.html)
 * [深入理解 Node Stream 内部机制](https://www.barretlee.com/blog/2017/06/06/dive-to-nodejs-at-stream-module/)
 * [Node.js Stream pipe 的使用与实现原理分析](https://cloud.tencent.com/developer/article/1630068)
 * [Node.js 编写守护进程](https://juejin.cn/post/6844903444839399438)
@@ -292,9 +278,8 @@
 
 ### 架构设计
 
-
 * [设计模式](https://refactoringguru.cn/design-patterns)
 * [代码重构之道](https://www.jianshu.com/p/f667ea3e4a11)
-* [前端技术之MVVM软件架构模式](https://zhuanlan.zhihu.com/p/79899786)
-* [MVC模式详解](https://blog.csdn.net/zhangli_/article/details/50419783)
-* [MVP架构模式详解](https://www.jianshu.com/p/4b754ea48a40)
+* [前端技术之 MVVM 软件架构模式](https://zhuanlan.zhihu.com/p/79899786)
+* [MVC 模式详解](https://blog.csdn.net/zhangli_/article/details/50419783)
+* [MVP 架构模式详解](https://www.jianshu.com/p/4b754ea48a40)
