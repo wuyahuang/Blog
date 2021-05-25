@@ -34,7 +34,7 @@
 
 ### LeetCode
 
-* [1. 两数之和](docs/leetcode/1.md)
+* [1.两数之和](docs/leetcode/1.md)
 * [3.无重复字符的最长字串](docs/leetcode/3.md)
 * [5.最长回文子串](docs/leetcode/5.md)
 * [9.回文数](docs/leetcode/9.md)
