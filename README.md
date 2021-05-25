@@ -52,7 +52,7 @@
 * [146.LRU 缓存机制](docs/leetcode/146.md)
 * [160.相交链表](docs/leetcode/160.md)
 * [204.计数质数](docs/leetcode/204.md)
-* [206.反转链表](docs/leetcode/24.md)
+* [206.反转链表](docs/leetcode/206.md)
 * [208.实现 Trie (前缀树)](docs/leetcode/208.md)
 * [215.数组中的第 K 大元素](docs/leetcode/215.md)
 * [226.翻转二叉树](docs/leetcode/226.md)
@@ -66,7 +66,7 @@
 
 #### 动态规划相关
 
-* [42.接雨水](docs/leetcode/43.md)
+* [42.接雨水](docs/leetcode/42.md)
 * [53.最大子序和](docs/leetcode/69.md)
 * [509.斐波那契数](docs/leetcode/509.md)
 * [70.爬楼梯](docs/leetcode/70.md)
