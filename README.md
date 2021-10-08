@@ -1,6 +1,7 @@
 # Blog
 
-* [区块链的基石 - ECC 椭圆曲线密码学](docs/ecc.md)
+* [区块链的基石 - ECC 椭圆曲线密码学](docs/blockachin/ecc.md)
+* [区块链的基石 - ECC 椭圆曲线加解密](docs/blockchain/ecc-encrypt-decrypt.md)
 * [为什么很多编程语言的数组下标从 0 开始](docs/why-array-index-starts-from-zero.md)
 * [链表](docs/linked-list/README.md)
 * [递归](docs/recursion.md)
