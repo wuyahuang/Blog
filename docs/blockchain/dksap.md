@@ -33,7 +33,7 @@ message =
 
 2) Alice 生成一组临时的公私钥对 (r, R = G * r)，将公钥 R 与交易明文数据一起发送至区块链节点
 
-3) 通过 ECDH 算法，Alice 和 Bob 可以分别计算出同一个共享密钥 c = Hash(r * S) = Hash(r * G * s) = Hash(s * r * G) = Hash(r * R)
+3) 通过 ECDH 算法，Alice 和 Bob 可以分别计算出同一个共享密钥 c = Hash(r * S) = Hash(r * G * s) = Hash(R * s)
 
 4) Alice 计算 P = c * G + B = c * G + b * G = (c + b) * G，其中公钥 P 为 BTC 接收方，将公钥 P 与交易明文数据一起发送至区块链节点
 
