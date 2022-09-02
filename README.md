@@ -7,7 +7,6 @@
 
 ### 前端
 
-* [为什么很多编程语言的数组下标从 0 开始](docs/why-array-index-starts-from-zero.md)
 * [链表](docs/linked-list/README.md)
 * [递归](docs/recursion.md)
 * [排序](docs/sort/README.md)
