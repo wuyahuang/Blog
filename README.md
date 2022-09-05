@@ -1,9 +1,9 @@
 ### 区块链
 
-* [区块链的基石 - ECC 椭圆曲线密码学](docs/blockchain/ecc.md)
-* [区块链的基石 - ECC 椭圆曲线加解密](docs/blockchain/ecc-encrypt-decrypt.md)
-* [区块链的基石 - ECDSA 签名、验签](docs/blockchain/ecc-signature.md)
-* [区块链隐私交易 DKSAP 协议](docs/blockchain/dksap.md)
+* [ECC 椭圆曲线密码学](docs/blockchain/ecc.md)
+* [ECC 椭圆曲线加解密](docs/blockchain/ecc-encrypt-decrypt.md)
+* [ECDSA 签名、验签](docs/blockchain/ecc-signature.md)
+* [隐私交易 DKSAP 协议](docs/blockchain/dksap.md)
 
 ### 前端
 
