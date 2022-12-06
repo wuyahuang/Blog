@@ -7,7 +7,7 @@
 
 ### 前端
 
-* [异或](docs/docs/xor.md)
+* [异或](docs/xor.md)
 * [链表](docs/linked-list/README.md)
 * [递归](docs/recursion.md)
 * [排序](docs/sort/README.md)
