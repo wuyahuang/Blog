@@ -13,6 +13,7 @@ function Person() {
 }
 
 Person.prototype.name = 'Kevin'
+Object.prototype.name = 'Bob'
 
 var person = new Person()
 
@@ -23,7 +24,6 @@ delete person.name
 console.log(person.name) // Kevin
 
 delete Person.prototype.name
-Object.prototype.name = 'Bob'
 console.log(person.name) // Bob
 
 
