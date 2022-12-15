@@ -2,7 +2,7 @@
 
 Javascript 对象的原型链关系图如下所示：
 
-![prototype](../../assets/prototype.png)
+![prototype](../assets/prototype.png)
 
 图片源自[https://github.com/mqyqingfeng/Blog/issues/2](https://github.com/mqyqingfeng/Blog/issues/2)
 
