@@ -43,17 +43,17 @@ console.log("person2.sayHello: " + person2.sayHello());// hello
 new Test():
 
 ```
-1.let obj = new Object();
-2.obj.__proto__ = Test.prototype;
-3.return Test.call(obj) || obj;
+let obj = new Object();
+obj.__proto__ = Test.prototype;
+return Test.call(obj) || obj;
 ```
 
 Object.create(Test):
 
 ```
-1.let obj = new Object();
-2.obj.__proto__ = Test.prototype;
-3.return obj;
+let obj = new Object();
+obj.__proto__ = Test.prototype;
+return obj;
 ```
 
 因此我们可以知道 Object.create 不会执行构造函数。
