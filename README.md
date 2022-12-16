@@ -14,6 +14,7 @@
 * [二分查找](docs/binary-search.md)
 * [简单的 Vue3 响应式原理源码实现](docs/vue/reactivity-demo.js)
 * [前缀树实现省市地区数据存储](docs/program/trie.md)
+* [Javascript 之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [Javascript 之原型链](docs/prototype.md)
 * [Javascript 之为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
 * [Javascript 之事件循环机制](docs/event-loop.md)
@@ -36,6 +37,7 @@
 * [Javascript 之节流](docs/program/throttled.html)
 * [CSS 之手写圣杯布局](docs/css/holy-grail.html)
 * [CSS 之手写双飞翼布局](docs/css/flying-swing.html)
+* [前端模块化详解](https://segmentfault.com/a/1190000017466120)
 
 
 
