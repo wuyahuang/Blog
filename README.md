@@ -3,7 +3,7 @@
 * [ECC 椭圆曲线密码学](docs/blockchain/ecc.md)
 * [ECC 椭圆曲线加解密](docs/blockchain/ecc-encrypt-decrypt.md)
 * [ECDSA 签名、验签](docs/blockchain/ecc-signature.md)
-* [隐私交易 DKSAP 协议](docs/blockchain/dksap.md)
+* [隐藏 Token Owner 之 DKSAP 协议](docs/blockchain/dksap.md)
 
 ### 前端
 
