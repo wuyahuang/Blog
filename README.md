@@ -12,7 +12,7 @@
 * [递归](docs/recursion.md)
 * [排序](docs/sort/README.md)
 * [二分查找](docs/binary-search.md)
-* [简单的 Vue3 响应式原理源码实现](docs/vue/reactivity-demo.js)
+* [简单的 Vue 响应式原理源码实现](docs/vue/reactivity-demo.js)
 * [前缀树实现省市地区数据存储](docs/program/trie.md)
 * [Javascript 之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [Javascript 之原型链](docs/prototype.md)
