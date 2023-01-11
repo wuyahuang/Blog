@@ -16,7 +16,7 @@
 * [前缀树实现省市区数据存储](docs/program/trie.md)
 * [Javascript 之闭包](https://github.com/mqyqingfeng/Blog/issues/9)
 * [Javascript 之原型链](docs/prototype.md)
-* [Javascript 之为什么 0.1 + 0.2 != 0.3 ?](docs/floating-point.md)
+* [Javascript 之为什么 0.1 + 0.2 != 0.3](docs/floating-point.md)
 * [Javascript 之事件循环机制](docs/event-loop.md)
 * [Javascript 之对象拷贝](docs/clone.md)
 * [Javascript 之 ES6 箭头函数二三事](docs/arrow-function.md)
