@@ -37,8 +37,6 @@
 * [Javascript 之节流](docs/program/throttled.html)
 * [CSS 之手写圣杯布局](docs/css/holy-grail.html)
 * [CSS 之手写双飞翼布局](docs/css/flying-swing.html)
-* [前端模块化详解](https://segmentfault.com/a/1190000017466120)
-
 
 
 ### LeetCode
