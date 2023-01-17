@@ -32,7 +32,7 @@
 * [JavaScript 之实现千位分隔符](docs/program/commaFormat.md)
 * [Javascript 之数组去重](docs/program/unique.md)
 * [Javascript 之判断是否为质数](docs/program/isPrime.md)
-* [Javascript 之数组拍平 flat](docs/program/flat.md)
+* [Javascript 之数组扁平化 flat](docs/program/flat.md)
 * [Javascript 之防抖](docs/program/debounce.html)
 * [Javascript 之节流](docs/program/throttled.html)
 * [CSS 之手写圣杯布局](docs/css/holy-grail.html)
